@@ -39,9 +39,13 @@ E com Matiz, saturação e liminosidade com HSL (Hue, Saturation, Luminosity).
 hsl(240,100%,50%) é o hsl do azul.
 hsla(0, 0%, 100%, 1.00) é branco.
 
-Você pode clicar na cor e na barra mais à direita você mexe na cor, na mais à esquerda você mexe na tonalidade e na do meio é a transparência.
+Você pode clicar na cor e na barra mais à direita você mexe na cor, na mais à esquerda você mexe na tonalidade e na do meio é a transparência (canal alpha)
 
-Geralmente essa escala de transparência é um quarto valor dentro das formas de representação de cores.
+Geralmente essa escala de transparência (alpha) é um quarto valor dentro das formas de representação de cores.
 #0000FF50 (vai parecer mais escuro no editor de texto do VS Code se o fundo for escuro, porque é mais transparente) 
 
-Para mudar a forma de represenação é só clicar em cima do escrito da forma.
+Para mudar a forma de represenação é só clicar em cima da função escrita.
+
+---------------
+
+No site https://color.adobe.com/pt/ você consegue fazer o upload de uma imagem e extrair uma paleta de cores dela.
