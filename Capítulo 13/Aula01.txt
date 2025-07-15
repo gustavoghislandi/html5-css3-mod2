@@ -1,0 +1,97 @@
+Psicologia das Cores
+
+Ele iniciou falando sobre a emoção das cores.
+
+Todo conhecimento pro desenvolvedor é extremamente útil (marketing digital, redes sociais, produção de vídeo, editar imagens...), com o design não é diferente.
+
+A escolha sobre comprar um produto ou não está intrinsicamente relacionada à cor. À cor não só do produto, mas da embalagem, a apresentação visual do produto... a mesma coisa se aplica a um site, a HARMONIA VISUAL DE UM SITE. Isso vai influenciar se você vai querer acessar aquele site, se você vai consumir um conteúdo ou não. A porcentagem do poder das cores é altíssima, chega a 90%.
+
+E nada disso é consciente. Você não consegue descrever o que você está sentindo, por que você acha bonito ou por que chama a atenção. E geralmente é o conjunto e a harmonia de cores que essa coisa tem.
+
+Ver PDF.
+
+Azul é a cor mais aceita e com menor taxa de rejeição. [Interessante que usei azul no meu fundo do LinkedIn]
+
+Evitar vermelho em usos como luxo, natureza... Não é que esteja proibido, mas fique ciente dos efeitos, e evite exagerar.
+
+Diz o Guanabara que fundo preto e letra branca causa um cansaço visual muito rápido (teria que usar poucas palavras). [Sei não...]
+
+Ele usou o exemplo do Netflix, em que nos lugares que tem mais texto foi usado fundo branco com letra preta, ao invés de fundo preto com letra branca.
+
+Então, ele recomenda esse contraste de fundo preto e letra branca se você tiver pouquíssimo conteúdo. [hmm...]
+
+Se for colocar um contrato, vá no padrão, a folha de papel é branca, nosso cérebro já está mais acostumado com isso. Não fique inventando as coisas.
+
+McDonald's usa vermelho e amarelo (alimentação, alegria...). E ele tem utilizado muito o marrom e o cinza para aqueles pratos/pedidos mais gourmetizados. Perceba que o marrom tem algo do amarelo e algo do vermelho.
+
+Burguer King usa o laranja principalmente.
+
+Verde é bem menos utilizada. Ligada à saúde, natureza, dinheiro, sorte. Mas também pode levar à inveja [???]. Usado para relaxamento, turismo também... evite para luxo, tecnologia, "uso em meninas adolescentes" [?], diz o Guanabara que estudos levam a crer que o verde não é uma cor muito ligada à meninas adolescentes.
+
+Lembrando, nada impede de você utilizar, cada caso é um caso.
+
+O site do KitKat é bem vermelho, mas tende a levar você para outros lugares, é um gateway para outros sites.
+
+Milka usa a monocromia no roxo.
+
+Rosa é recomendado para produtos femininos e cosméticos. Muito ligado a coisas sentimentais ou doces. [Provavelmente uma suavidade também.]
+
+Dourado, muitas vezes usado com tons semelhantes, é muito utilizado em luxo. Prateado também. [São as cores dos metais preciosos, né...]
+
+O marrom muita gente não gosta. Mas ela passa uma ideia de robustez, de estabilidade, de amizade. O Guanabara mostrou o uso do marrom bem utilizado em um site de um restaurante francês, que deu uma ideia de luxo.
+
+Então não precisa fugir do marrom, mas às vezes é bem delicado e tem que ter cuidado.
+
+Roxo tem criatividade, poder, sabedoria. Ele não prende muito a atenção do leitor. É muito usado também para coisas inovadoras. Empresas "jovens", inovadoras, costumam utilizar.
+
+Ele mostrou sites que mudam as cores conforme o tipo do produto, seus sabores, por exemplo.
+
+Concluindo, as cores conseguem representar coisas, representam ideias, conceitos em nossa mente.
+
+
+-------
+Em um dos sites do PDF (https://www.matildefilmes.com.br/psicologia-das-cores-guia-avancado-para-profissionais/) há uma observação que quero deixar registrada:
+
+'laranja é a cor de um caráter penetrante e intrusivo.
+
+Essas características fizeram com que, até há pouco tempo, o laranja fosse exaustivamente usado na publicidade. PORÉM, COM O USO EXCESSIVO, CONSUMIDORES PASSARAM A EVITÁ-LO.'
+
+Ou seja, a cor depende muito do contexto de época também e coisas que inicialmente funcionam muito, ao tornarem-se BANAIS, perdem seu poder.
+
+-- 
+Outro trecho interessante:
+
+'Embora a associação do ouro com riqueza pareça algo bem direto, este é um grande exemplo de como O SIGNIFICADO DAS CORES, POR MAIS ARRAIGADO, PODE SER, ANTES DE QUALQUER COISA, UMA COMPREENSÃO CULTURAL.'
+
+-----
+Em outro site (https://neilpatel.com/br/blog/psicologia-das-cores-como-usar-cores-para-aumentar-sua-taxa-de-conversao/):
+
+'A maneira como tais informações são recebidas e compreendidas pelo cérebro pode variar de pessoa para pessoa e, desta maneira, a Psicologia das Cores não pode ser definida como uma técnica exata e precisa para o marketing.'
+
+Não é exata, mas também não deve ser totalmente descartada. Acredito que principalmente o 'feeling', a sensação que é passada, aquele impacto do conjunto, do qual a cor é uma parte/variável.
+
+'Existem artigos que você pode encontrar na internet que afirmam que determinada cor pode trazer um número muito maior de conversões do que outra. Isso não é verdade.
+
+As cores impactam as pessoas de forma diferente e, no caso do marketing, ELAS PRECISAM SER TESTADAS para saber qual delas trouxe uma resposta mais positiva e uma elevação da taxa de conversão.'
+
+'As cores são um complemento muito importante, mas não a ideia central da sua mensagem.
+
+Elas devem apenas alinhar visual e valores.'
+
+
+'Em seu livro “A Psicologia das Cores”, Eva Heller fala das inúmeras maneiras que as cores nos afetam. Ela afirma que:
+
+    “Cores e sentimentos não se combinam ao acaso, nem são uma questão de gosto individual – são vivências comuns que, desde a infância, foram ficando profundamente enraizadas em nossa linguagem e em nosso pensamento.”
+'
+
+'O cérebro tem a capacidade de processar as informações visuais em uma velocidade  60.000 vezes maior do que informações contidas em textos simples.'
+
+DADO RELEVANTE:
+'8,5% da população masculina e 0,5% da população feminina mundial é daltônica.
+
+Há um ironia enquanto leio o texto:
+
+"De nada adianta ter um excelente produto se a sua marca não for notada, não se destacar no meio dos concorrentes e empresas que trabalham no mesmo nicho e que certamente estão brigando para conseguir um espaço maior."
+
+porque há um aside fixo com os logos do Facebook, do Twitter(X) e do LinkedIn, e os 3 são azuis em tons próximos. Considerando que possuem algum grau de concorrência, nenhum deles se destaca dos outros. Se um deles puxasse para um laranja, por exemplo (talvez não esta cor), ele se destacaria de imediato.
+

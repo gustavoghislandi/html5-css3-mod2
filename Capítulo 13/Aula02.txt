@@ -1,0 +1,47 @@
+Representando Cores com CSS3
+
+Cores não são só cores. Cores são emoções. Saber como aplicar cores é mais importante do que só aplicá-las.
+
+Hexadecimal
+
+Hexadecimal: 0 1 2 3 4 5 6 7 8 9 A B C D E F
+
+Toda cor funciona com uma combinação do RGB (VERMELHO, VERDE E AZUL)
+
+No hexadecimal os dois primeiros valores são o vermelho, os outros dois verde os últimos dois azul.
+
+Dois hedecimais vão de 00 (0) até FF (255), totalizando 256.
+
+Desta forma:
+#FF0000 é igual a vermelho
+#00FF00 é igual a verde
+#0000FF é igual a azul
+#FFFFFF é igual a branco
+#000000 é igual a preto.
+
+Vermelho com azul dá roxo pela teoria das cores, certo?
+Então vamos maximizar vermelho e azul para achar o roxo.
+#FF00FF (ficou meio rosa mas é isso.)
+Para encontrar o amarelo precisamos de quem? Vermelho com verde.
+#FFFF00 é igual a amarelo.
+
+Perceba que se você reduzir a quantidade de cor, ela tende a ir escurecendo, aproximando do preto, que é o #000000 e afastando do branco que é o #FFFFFF.
+Exemplo:
+rgba(0, 0, 255, 1) é igual a azul.
+#0000BB é um azul mais escuro.
+#000090 é um azul mais escuro ainda.
+#000030 é um azul muito mais escuro.
+
+Também é possivel fazer em RGB (Red, Green, Blue) de 0 a 255.
+rgba(255, 0, 0, 1) é vermelho.
+
+E com Matiz, saturação e liminosidade com HSL (Hue, Saturation, Luminosity).
+hsl(240,100%,50%) é o hsl do azul.
+hsla(0, 0%, 100%, 1.00) é branco.
+
+Você pode clicar na cor e na barra mais à direita você mexe na cor, na mais à esquerda você mexe na tonalidade e na do meio é a transparência.
+
+Geralmente essa escala de transparência é um quarto valor dentro das formas de representação de cores.
+#0000FF50 (vai parecer mais escuro no editor de texto do VS Code se o fundo for escuro, porque é mais transparente) 
+
+Para mudar a forma de represenação é só clicar em cima do escrito da forma.
