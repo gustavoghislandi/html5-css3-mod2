@@ -1,0 +1,152 @@
+Harmonia de Cores
+
+Harmonia de Cores não faz parte da disciplina de Web, faz parte de Design. [Sim, eu tive em Design UX/UI, mesma coisa tipografia, etc]
+
+Círculo cromático. (O que ele está mostrando é com representação RGB)
+
+Ele dividiu em 12 cores.
+
+Sabe quando você acha algo "bonito" e não sabe por quê? Simetria e cores [eu adicionaria proporção].
+
+Cores primárias (amarelo, vermelho e azul). Formam um triângulo equilátero.
+
+Cores secundárias (laranja, verde, violeta). Outro triângulo equilátero.
+
+Cores terceárias. Elas sempre são misturas de cores primárias e secundárias. Quando você for dar um nome a uma cor terceária, você sempre colocará o nome da cor primária antes e depois o nome da cor secundária. Toda cor terceária está entre uma cor primária e uma cor secundária.
+Exemplos:
+amarelo-esverdeado,
+amarelo-alaranjado,
+vermelho-alaranjado (por mais que seja um laranja bem escuro, chamamos de vermelho-alaranjado),
+vermelho-arroxeado (por mais que seja violeta, se considera arroxeado),
+azul-arroxeado,
+azul-esverdeado.
+
+De forma grosseira, ele disse que são os tons pastéis. [Não concordo muito porque os pastéis, pra mim, são mais fraquinhos, puxam mais para o branco]
+
+--
+Temperatura de cores
+
+Divida o círculo na parte entre o amarelo-esverdeado e amarelo, e na parte roxo e vermelho-arroxeado. No semi-círculo entre o amarelo-esverdeado e o roxo são as cores frias, enquanto no outro lado as cores quentes. Elas trazem essa sensação de temperatura e criam alguma harmonia entre eles.
+
+Uma das coisas que você tem que se preocupar muito é em fazer uma paleta de cores para o seu site.
+Daquelas características que a essência do que será o site (ou seja, do que é o negócio dele, por exemplo: mais sério, quer passar confiabilidade, ou quer passar mais leveza), aí você escolherá a paleta de cores.
+
+Geralmente, uma paleta tem de 3 a 5 cores no máximo. Desconsidere branco e preto, que estes sempre estarão no seu site. O recomendado são 4 cores.[Eu acho um pouco estranho, porque os degradês ficam bonitos e, na verdade nessa técnica é usado muito mais tons]
+
+Se o cliente tem uma logo e a marca do cliente é algo muito importante, qual é a cor "primária" da logo do cliente? Aí você usa a cor primária da logo cliente como cor "primária" do site. Por "primária" acredito que ele disse principal.
+
+--
+Cores Complementares
+
+São aquelas que mais contrastam entre si.
+Exemplo: Violeta, qual o contraste, o extremo oposto? Amarelo.
+
+Então você não precisa de uma lista de cores complementares, por exemplo.
+
+Não necessariamente elas ficam bonitas juntas, até porque existem tons diferentes de cada uma.
+
+--
+Cores Análogas
+
+São cores com pouco contraste entre elas, mas são perceptíveis. 
+Cores vizinhas (imediatamente ao lado).
+Exemplo, 
+violeta e as vizinhas vermelho-arroxeado e azul-arroxeado.
+
+Isso gera uma harmonia semelhante.
+
+--
+Cores Análogas e Complementares
+
+Você traça uma linha reta ao lado oposto da cor principal.
+No caso acima, o amarelo.
+Ficou então: violeta e as vizinhas vermelho-arroxeado e azul-arroxeado, mais o amarelo.
+
+[Achei mais bonito]
+
+Tem o violeta, que é mais forte; depois as cores vizinhas, mais suaves; e depois o amarelo para contrastar diretamente com o violeta.
+
+Com isso, já temos uma paleta de 4 cores.
+
+E você pode girar isso para outro lugar.
+
+[Repito, técnica de divisão boa]
+
+--
+Cores Análogas Relacionadas
+
+Se você quer um contraste um pouco mais suave, não oposto.
+
+Então você pega duas vizinhas e pula uma cor.
+Exemplo:
+Amarelo, amarelo-alaranjado e vermelho (essa pulou).
+Ou amarelo-alaranjado, amarelo e verde (essa pulou).
+
+É um tipo de paleta mais cômoda aos olhos.
+
+--
+Cores Intercaladas
+
+NOTA: LEMBRE-SE SEMPRE DE ESCOLHER UMA COR COMO REFERÊNCIA.
+
+Vamos pegar o amarelo como referência.
+
+Agora pule uma e pule outra.
+
+Então isso resulta em amarelo, laranja e vermelho.
+
+Esse tipo de paleta é um pouco mais "dura".
+
+Outro exemplo seria:
+amarelo-esverdeado, azul-esverdeado e azul-arroxeado.
+
+--
+Cores Triádicas
+
+Pule sempre 3 cores (então é a 4a).
+
+Isso gera um triângulo equilátero.
+
+As primárias entre si são triádicas, assim como as secundárias entre si. Porém, isso pode ser com quaisquer cores, é só girar o triângulo no círculo.
+
+--
+Cores em Quadrado
+
+Pule de 2 em duas (então é sempre a terceira)
+
+Isso forma um quadrado. Dá cores fortes e bem balanceadas.
+
+--
+Cores Tetrádicas
+
+Pegue uma cor (exemplo, verde).
+Depois pegue o oposto (vermelho).
+Depois pule e pegue uma cor (laranja).
+Aí pegue o extremo oposto dela (azul).
+
+Isso forma um retângulo. [Não gostei da mistura]
+
+Ele disse que se escolhesse o verde e o azul-esverdeado, ficariam mais simétrica a paleta. [Contudo, isso muda a forma de calcular]
+
+Ficaria ver, com o oposto vermelho.
+E azul-esverdeado e o oposto vermelho-alaranjado. [Um retângulo menor]
+
+--
+Monocromia
+
+Cria o efeito a que chamamos de "degradê".
+
+Pegue uma cor e mude duas características, saturação e o brilho(luminosidade). Usando o HSL, por exemplo. [ali ele conseguiu cores como laranja, um amarelho queimado, um marrom claro e um marrom escuro.]
+
+É bem harmônica.
+
+Boa principalmente para fundos, por exemplo.
+
+hsl(32, 100%, 50%)
+hsl(32, 50%, 50%)
+hsl(32, 50%, 25%)
+hsl(32, 20%, 20%)
+
+[Acima, é "mais ou menos" como o exemplo que ele deu.]
+
+
