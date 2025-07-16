@@ -1,0 +1,13 @@
+Como capturar cores da tela?
+
+Geralmente se tira um print da tela, vai em um editor de imagens (como o GIMP) e clica no "conta gotas", com isso a cor será capturada.
+
+Ele disse que provavelmente a tonalidade da cor mudou um pouco quando o print foi tirado.
+
+--
+Ele sugere a extensão Colorzilla (na Chrome Web Store)
+--
+
+[Nas Dev tool (F12), em Inspector você também tem um conta gotas.]
+
+Você pode pegar essas cores e usar os sites mencionados na aula anterior para conseguir a sua paleta.
