@@ -1,0 +1,44 @@
+Paleta de Cores
+
+Acesse color.adobe.com
+
+Você verá o Modo de Cor.
+
+Então:
+
+RGB é para monitores.
+CMYK é para impressoras. (Cyan, Magenta, Yellow, Key(Black)).
+HSV (Hue, Saturation, Value).
+LAB [é um espaço de cores baseado na percepção humana de cores.]
+
+---
+LAB, também conhecido como LAB Color ou CIE LAB, é um espaço de cores baseado na percepção humana de cores. Ele foi desenvolvido pelo Comitê Internacional de Iluminação (CIE) para fornecer uma representação de cores que seja mais próxima à forma como os humanos percebem as cores.
+
+O espaço de cores LAB é composto por três componentes:
+
+    L (Luminância ou Lightness): representa a luminosidade da cor, variando de preto (0) a branco (100).
+    A: representa a posição da cor entre verde e vermelho.
+    B: representa a posição da cor entre azul e amarelo.
+
+O LAB é útil porque é um espaço de cores perceptualmente uniforme, ou seja, uma mudança de valor em qualquer componente tende a ser percebida como uma mudança de cor igual, independentemente de onde ela ocorra. Ele é amplamente utilizado em processos de edição de imagens, impressão e calibração de cores.
+
+[Deve ser bom para fazer sites acessíveis para daltônicos]
+---
+
+No site da adobe você consegue fazer o upload de uma imagem. Você faz o upload da logo, por exemplo. É excelente.
+
+Você pode explorar também paletas novas, ele sugere.
+
+------------------
+Outra ferramenta:
+
+paletton.com
+
+[Uau, se você clicar em exemplos ele traz uma simulação de site com a paleta de cores. Estou boquiaberto.]
+
+------------------
+Outra:
+
+coolors.com
+
+Esta vai te sugerindo cores quando você aperta espaço. Aí, você pode "travar" as cores que você for gostando até chegar em uma paleta que te agrade mais.
