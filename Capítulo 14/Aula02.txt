@@ -1,0 +1,95 @@
+Anatomia do tipo
+
+ITENS MÉTRICOS
+
+O "tipo" é cada uma das letras, é como cada uma delas é desenhada.
+
+A letra "x" é o ponto de partida para a construção de todas as fontes.
+Quando se vai criar uma fonte nova, em primeiro lugar se faz o x minúsculo dessa fonte. 
+Porque existe uma métrica chamada "altura-x", que é a altura do x minúsculo nessa fonte.
+
+A "altura-x" vai definir qual é a base de todas as letras minúsculas, sem seus ascendentes e descendentes, que são a parte que excede a altura x para cima e para baixo.
+
+A "altura das maiúsculas" vai dar o tamanho das maiúsculas. [No exemplo da tela, essa altura vai além dos topos de "b" e k", por exemplo]
+
+"Ascendente" é a altura que extrapola para cima da altura-x.
+"Descendente" é a que extrapola para baixo.
+
+"Corpo" é a altura total, que vai desde o topo da altura das maiúsculas até a parte mais baixa descendente.
+
+Então quando se vai escolher uma fonte, tem que saber a altura do corpo, porque é a altura do corpo que será definido lá nas CSS.
+
+--------------------
+ITENS ANATÔMICOS
+
+A partir de agora, nem todas as fontes têm todos estes componentes.
+
+"Serifa" é aquele "dentinho"/prolongamento nas pontas de algumas fontes.
+
+A importância da sefira: Ela cria uma linha imaginária que o nosso cérebro percebe sem saber que é por conta da serifa. Basicamente ela vai ajudar a criar as linhas imaginárias da altura-x o que facilita a leitura das palavras.
+
+O nosso cérebro não lê as coisas letra por letra.
+
+As serifas surgiram mais para conteúdo impresso no papel. Nas telas (digitais)  , fontes sem a serifa parecem facilitar a leitura.
+
+
+"Partes geométricas": (o Guanabara chama assim)
+
+"Haste" é uma haste que tem nas letras, a parte mais comprida da letra "k", as duas hastes da letra "A" (direita e esquerda).
+
+"Filete" é o nome da haste que une duas hastes ou um ou mais hastes e arcos, como o traço horizontal em "A", ou como otraço horizontal em "e".
+
+"Arco" é aquela curvatura, como em 'n" (que tem duas hastes e um arco, aquela curvinha para cima).
+
+"Esporão" é como um saltinho que algumas letras têm, simulando a impressão de não deixarem elas caírem, como em "b" no canto esquerdo embaixo. Algumas fontes utilizam, outras não.
+
+"Vértice", que existe no topo de "A" e na base de "V".
+
+"Terminal" é quano se tem um elemento e ele não está preso em outro lugar, como na letra "r", naquele traço para à direita.
+
+----
+
+"Braço" é o elemento que sai de uma haste e ascende, vai para cima, como em "k".
+
+"Perna" é o elemento que sai de uma haste e descende, vai para baixo, como em "k" também, mas a perna nesse caso vem do braço, que, por sua vez, vem da haste.
+
+"Pé". Se tem "perna" tem "pé". "Pé" é onde existem as serifas, às vezes. Ou seja, é a base que segura a fonte.
+
+"Espinha" é um componente que só existe na letra "s". Ele disse que o s tem duas dessas curvas, uma para um lado e outra para o outro.
+
+"Barriga". Por exemplo, em "b", quando os dois arcos saem da haste, eles formam uma barriga.
+
+"Olho" é o espaço vazio que surge dentro das letras, como em "b", "e", "g" e "Q".
+
+"Orelha" é uma parte de cima, que me parece uma serifa em um arco, pois não fica exatamente no "fim" da letra, por não há exatamente um "fim" quando se tem somente arcos nas extremidades.
+
+"Cauda" é a parte descendente da fonte, como em "g" e "Q".
+
+------------------
+
+"Glifo" é uma letra [ou símbolo de letra], como "A". No exemplo, o "A" é um glifo da fonte Times New Roman.
+
+A fonte Times New Roman pode ter, por exemplo, conjuntos, famílias.
+
+"Fonte" é o conjunto de todos os glifos de uma determinada família. Fonte também pode ser o arquivo que você baixa para poder utilizar essa letra[fonte] no computador.
+
+"Família tipográfica", são as espessuras: light, normal, semibold, bold, extrabold. 
+
+Às vezes só tem um tipo de fonte, mas tem diversas famílias tipográficas. O Google Fonts chama elas de variações. Nem toda fonte tem light ou extranegrito. Geralmente elas têm normal e negrito[bold], mas algumas nem negrito têm.
+
+------------------
+CATEGORIAS DE FONTES
+
+"Serifadas", as que têm serifa, como a Times New Roman. Recomendada para textos em papel.
+
+"Sans-serif", as que não têm serifa. Para textos muito longos em sites, dê preferência a fontes não serifadas.
+
+Cuidado também com as fontes serifadas com espaçamento muito curto entre elas, por exemplo.
+
+Nunca use cores não contrastantes entre texto e fundo. Na leitura você precisa de coisas como branco no fundo e preto na letra. [Não vou aqui dizer cores complementares porque roxo com branco não ficam bem na vista como forma de texto, por exemplo, nem vermelho e verde]. Netflix é preto com branco, mas para mostrar um contrato é fundo branco e letra preta.
+
+"Monoespaçada", os glifos tem a mesma largura, inclusive os símbolos (!,?). Pode ser com ou sem serifa.
+
+"Handwriting", simula a escrita à mão, caligrafia humana.
+
+"Display" ou "Fontes comemorativas", não têm nenhuma (ou tem poucas) das características de cima, não se preocupa em obedecer regras anatômicas. [Ou seja, todas as outras.]
