@@ -1,0 +1,11 @@
+Criando um exemplo real
+
+Quando ele mexeu com sombreamento, ele deu a dica que não precisa MOSTRAR que tem sombra no site. É só uma coisa discreta.
+
+No exercício cor03.html, foi usada uma paleta de cores pronta:
+/* Color Theme Swatches in Hex */
+.Northern-Lights-1-hex { color: #024059; }
+.Northern-Lights-2-hex { color: #026873; }
+.Northern-Lights-3-hex { color: #04BF8A; }
+.Northern-Lights-4-hex { color: #025940; }
+.Northern-Lights-5-hex { color: #03A64A; }
