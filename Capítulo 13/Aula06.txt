@@ -1,0 +1,45 @@
+Como criar degradê com CSS?
+
+Para fazer degradê, o Guanabara disse para usar o style background-image, ao invés de background-color, contudo é com uma função interna chamada linear-gradient(),assim:
+
+background-image: linear-gradient();
+
+Dentro da função, você coloca a direção(tecnicamente, sentido) e quantas cores vocês quiser.
+
+background-image: linear-gradient(to right, white, blue);
+
+A direção pode ser em graus, exemplo: 90deg.
+
+Se você colocar a direção "to top", para funcionar você precisar colocar nas configurações globais height: 100%; 
+
+/*Configurações globais das CSS*/
+*{ 
+height: 100%;
+}
+
+Esta configuração é importante ir junto (foi colocada no body):
+
+background-attachment: fixed;
+
+---
+
+Existe também o radial-gradient(circle, cores) , por exemplo.
+
+---
+É possível colocar percentuais ao lado das cores, sem vírgula. Porém, quanto tentei fazer isso na primeira vez, as cores ficaram sólidas, sem gradiente. Foi onde percebi que a última cor estava respondendo em reverso (ou seja, quanto maior o percentual, menor a quantidade dela na tela), então é importante ir testando colocando um percentual por vez.
+
+Sintaxe usada para simular cores do Instagram:
+
+*{ /*Configurações globais das CSS*/
+    height: 100%;
+}
+body{
+    background-image: linear-gradient(175deg, #4B63D4 9%,#AA35B4,#9439A0,#D23086,#DF3469,#EF6540,#FED97B 85%);
+    background-attachment: fixed; /*Necessário para não aparecer diferente ao rolar a barra para baixo*/
+}
+
+----
+
+Evidentemente, isso foi somente um exemplo para treinar as habilidades. 
+
+Evite paletas grandes, tente usar de 3 a 5. Alguns profissionais conseguem usar 2.
