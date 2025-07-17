@@ -1,0 +1,37 @@
+Tamanho de fonte e suas medidas
+
+Recomenda-se sempre seguir as recomendações da W3C.
+
+--
+
+'What is the difference between PX, EM and Percent?
+
+Pixel is a static measurement, while percent and EM are relative measurements. Percent depends on its parent font size. EM is relative to the current font size of the element (2em means 2 times the size of the current font). So, If the font size of body is 16 pixels, then 150% will be 24 pixels (1.5 * 16), and 2em will be 32 pixels (16 * 2). ' (https://www.w3schools.com/cssref/css_pxtoemconversion.php)
+
+--
+
+
+Medidas absolutas
+cm, mm, in, px, pt, pc
+
+As absolutas podem ser renderizadas de maneira diferente. O px(pixel), por exemplo, em telas de retina pode ser maior que um único ponto(dot). pt e pc são são usadas mais para impressão, não em telas digitais.
+
+Medidas Relativas
+em, ex, rem, vw, vh, %
+
+em -> medida relativa à altura-M de uma fonte (corpo), relativa ao "M" maiúsculo.
+ex -> medida relativ à altura-x de uma fonte.
+rem -> semelhante a em, porém relativa ao root, à fonte que está configurada no body.
+vw(view-width) -> relativa à largura da view port, é em porcentagem dela.
+vh(view-height) -> relativa à altura da view port, é em porcentagem dela.
+% porcentagem
+
+Existem outras, mas essas são as mais comuns. O Guanabara disso que usaremos mais o 'em'.
+
+O W3C, para medidas de font-size, recomanda somente px e em.
+
+NOTA: Eu testei o 1cm e 2cm no body e este ficou o tamanho exato da maiúscula do h1. Enquanto a maiúscula do p ficou com metade desse tamanho. Eu achei bom se quiser colocar algo para pessoas que precisam de letras maiores, como idosos. Porque você mantém a letra em um tamanho fixo independentemente do tamanho da tela.
+
+16px geralmene é = 1em
+
+em é o tamanho da letra (que geralmente é 16px)

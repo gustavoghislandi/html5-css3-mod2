@@ -1,0 +1,13 @@
+Famílias de fonte com CSS
+
+Geralmente os navegadores utilizam a Times New Roman como fonte padrão.
+
+Muitos dispositivos, principalmente os portáteis, podem não ter algumas fontes. Por isso é bom colocar o que se chama de "safe combination", que é colocar mais de uma fonte como valor da propriedade do CSS.
+
+font-family: Arial, Helvetica, sans-serif;
+
+Isso faz com que o navegador primeiro tente, no exemplo, a Arial, se não houver, ele tenta Helvetica, e se não houver também, ele vai para uma sem serifa.
+
+Se você quer saber quais são elas, busque no Google por "css web safe fonts combinations", irá aparecer o link do site w3schools.com
+
+Sempre coloque, pelo menos um valor genérico dentre estes 3: serif, sans-serif, monospace. Quando o navegador ler um desses, ele vai colocar um tipo de fonte de ele tiver desse tipo. Evidentemente, prefira colocar no final, pois você não sabe qual a fonte que ele irá utilizar. Existem outros também como cursive e fantasy, por exemplo.
