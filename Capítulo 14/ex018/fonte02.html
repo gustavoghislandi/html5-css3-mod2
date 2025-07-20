@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang='pt-BR'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Fontes com o Google Fonts</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght,CRSV,ELSH,ELXP@100..900,0..1,0..100,0..100&display=swap');
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            color: black;
+        }
+
+        h1 {
+            font-family: "Work Sans", sans-serif;
+            font-weight: bold;
+            font-style: italic;
+            font-size: 3em;
+            
+        }
+        h2 {
+            /* // <weight>: Use a value from 100 to 900
+            // <slant>: Use a value from -8 to 0. Inlinação.
+            // <cursive>: Use a value from 0 to 1. Muda cursiva ou romana, muda a forma do 'a', por exemplo.
+            // <element shape>: Use a value from 0 to 100. Teste e verá.
+            // <element expansion>: Use a value from 0 to 100 */
+             font-family: "Bitcount Prop Single", system-ui;
+            font-optical-sizing: auto;
+            font-weight: 700;
+            font-style: italic;
+            font-variation-settings:
+                "slnt" -8, /* O slant não está pegando no meu navegador, porém aceita italic */
+                "CRSV" 1, 
+                "ELSH" 80,
+                "ELXP" 0;
+            font-size: 2em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, inventore temporibus molestiae officia in veritatis voluptas esse illo aliquam molestias dolorum deleniti ea neque officiis assumenda vero. Debitis, sint vero!
+    </p>
+    <h2>Subtítulo - Maria teste do A - Mude o 'CRSV' e veja a mágica acontecer</h2>
+    <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore nam eveniet quae quo, accusantium atque odit provident delectus corporis tempora. Veritatis officia incidunt repellendus placeat quaerat? Odit, provident iure. Provident.
+    </p>
+</body>
+</html>

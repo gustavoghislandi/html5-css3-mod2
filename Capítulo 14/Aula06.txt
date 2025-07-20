@@ -1,0 +1,19 @@
+Usando Google Fonts
+
+Site:
+
+fonts.google.com
+
+Nesse site há muitas família tipográficas.
+
+Voê pode fazer o download da fonte, mas você não precisa (já que seu site vai estar conectado à internet); [Óbvio que é extremamente difícil de acontecer, mas baixar a fonte seria para caso o servidor da fonte ou a fonte não estejam mais no ar]
+
+Em 'Embed" você pode copiar via 'link' ou 'import'.
+
+Você irá perceber que com o import, a fonte usada no h1, por exemplo, irá aparecer de um jeito, mas rapidamente muda, pois ela vai lá no servidor do Google buscar a fonte [é onde o download me parece melhor também]. [ No meu computador não deu de perceber isso, foi muito rápido]
+
+Para cada fonte que você quiser importar, você terá que colocar um @import. E tem que ser colocado logo abaixo de style (nas primeiras linhas do documento de estilo CSS) e fora de um seletor.
+
+Um @ como o @import é uma 'regra'. Que é diferente de um seletor.
+
+Não exagere na quantidade de fontes do seu site. Normalmente se usa 3, uma para grandes títulos, uma para destaque e uma fonte normal. 3 ou 4 famílias de fonte são mais do que suficientes para o seu site. Senão virará uma bagunça parecido com as cores quando não harmonizam.
