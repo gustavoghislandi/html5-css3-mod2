@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang='pt-BR'>
+
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Fontes Externas Baixadas</title>
+    <style>
+        @font-face {
+            font-family: 'Old London'; /*É o nome que você quiser*/
+            src: url('fonts/old_london/OldLondon.ttf') format('truetype'), url('fonts/old_london/Olondon_.otf') format('opentype');
+            /* Você vai perceber que se você estragar o link do .ttf, a do .otf muda um pouco o poscionamento */
+        }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1 {
+            font-family: 'Old London', 'Times New Roman', Times, serif;
+            font-size: 3em;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Título em fonte Old London</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima atque officiis ducimus! Cupiditate corporis
+        aliquam, deserunt labore temporibus autem consequatur? Porro, exercitationem? Veniam iure iste vero fugit ad,
+        assumenda accusamus.</p>
+</body>
+
+</html>

@@ -1,0 +1,33 @@
+Usando fontes externas baixadas
+
+Normalmente o cliente já vai te passar a fonte em .ttf ou .otf.
+
+Um site bom:
+
+dafont.com
+
+ATENÇÃO: Fique atento aos glifos. Existem fontes que não têm acentuação, ou não têm minúsculas, por exemplo.
+
+--
+
+Tipos de format() [veja o arquivo fonte03.html]:
+
+- opentype (otf)
+- truetype (ttf)
+- embedded-opentype
+- truetype-aat (Apple Advanced Typography)
+- svg
+
+Diz o Guanabara que existe algumas fontes que são opentype porém .ttf.
+
+Para garantir compatibilidade maior, coloque mais de um tipo (geralmente o otf e ttf, pelo menos, que tendem a funcionar em todos os navegadores)
+
+Você pode dar o nome que você quiser para a fonte.
+
+FIQUE ATENTO que muitas fontes são permitidas para uso pessoal somente. Se for uso comercial, compre uma licença.
+
+Geralmente se coloca as fontes dentro de uma pasta fonts.
+
+--
+
+Ele disse que usar o Google fonts deixa o site mais leve, aí seria para dar preferência para ele. [Talvez ajude em SEO e questão de armazenamento. Porém é bom lembrar que fica-se dependente daquele servidor.]
