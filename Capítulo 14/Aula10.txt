@@ -8,17 +8,4 @@ text-indent: 4em; [Esse é usaddo para indentação ou recuo no começo do texto
 
 A ABNT recomenda 1,25cm, outros usam 0,5 polegada (1,27cm). Pode ser usado 2,5cm (aproximadamente 1 polegada).
 
-[1 polegada resultou em 6em, no que percebi.]
-
-------------------
-
-Outra coisa que percebi é que pode ser útil usar uma única família de fonte e vários pesos e variações dela. Parecerá outras, mas ainda será a mesma.
-
-"para tamanhos de fonte, é ainda melhor usar 'em'. A ideia é (1) não especificar o tamanho de fonte do elemento BODY (em HTML), mas usar o tamanho padrão do dispositivo porque esse é um tamanho que o leitor consegue ler confortavelmente; e (2) expressar o tamanho da fonte de outros elementos em 'em': 'H1 {font-size: 2.5em}' para fazer o H1 2½ vezes maior que o normal." (https://www.w3.org/Style/Examples/007/units.pt_BR.html)
-
-"
-Mais unidades em CSS no futuro
-
-Para tornar ainda mais fácil de fazer as regras de estilo que dependem somente do tamanho de fonte padrão, uma nova unidade está em desenvolvimento: a 'rem'. A 'rem' ("root em") é o tamanho de fonte do elemento-raiz do documento. Diferentemente do em, que pode ser diferente para cada elemento, o 'rem' é constante em todo o documento.
-
-Outras unidades em desenvolvimento permitem especificar tamanhos relativos à janela do leitor. São a 'vw' e 'vh'. A 'vw' é 1/100 da largura da janela e 'vh' é 1/100 da altura da janela." (https://www.w3.org/Style/Examples/007/units.pt_BR.html)
+1 polegada resultou em 6em, no que percebi.
