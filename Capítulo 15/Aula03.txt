@@ -1,0 +1,28 @@
+Pseudo-classes em classes
+
+Toda <div> vai de ponta a ponta, usa toda a largura do espaço.
+
+display: inline-block; /*Coloca na mesma linha. É semelhante a não usar quebra de linha, porém é um elemento de bloco, que permite altura e largura.*/
+
+Em CSS:
+
+Se . é uma classe, 
+
+: (dois pontos) é uma pseudo-classe.
+
+As pseudo-classes precisam estar relacionadas a um elemento ou a uma classe.
+
+Elas são relacionadas a um estado de um determinado elemento.
+
+--
+Isto faz com que o os 'p' dentro da div não apareçam (pelo pelos até o hover)
+
+  div > p {
+            display: none;
+        }
+
+    div:hover > p {
+        display: block;
+    }
+
+'>' é uma representação de 'child', filho.
