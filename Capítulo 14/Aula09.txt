@@ -1,0 +1,26 @@
+Detectando fontes dentro de imagens
+
+Ele mostrará 3 sites (abaixo), contudo, os resultados não são 100% eficientes, pois usa visão computacional.
+
+----------------------------
+whatfontis.com
+
+Segundo o Guanabara, é o que tem maior inteligência.
+
+Quanto mais cuidado você tiver no início, ajustando brilho, fundo, etc, melhor ele irá identificar.
+
+[O site é bom mesmo]
+
+----------------------------
+fontsquirrel.com
+
+Esse estava aparencendo erro 403 para mim, podendo ser excesso de tráfego ou erro de configuração, segundo o site.
+
+----------------------------
+myfonts.com
+
+Também encontrou (e rápido) a fonte que eu coloquei, Mas os preços eram bem mais caros que o primeiro site.
+
+----------------------------
+
+[provavelmente todos os sites estão bons, pois as IAs já melhoraram muito de lá para cá]
