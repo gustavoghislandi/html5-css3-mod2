@@ -48,6 +48,18 @@ font: [font-style] [font-weight] [font-size] [font-family]
 exemplo:
 font: italic bolder 3em 'Work Sans', sans-serif;
 
+---
+"A ordem dos atributos de uma shorthand em CSS é importante. No caso da
+propriedade font, devemos informar, na ordem:
+
+font-style
+font-variant
+font-weight
+font-size/line-height
+font-family
+" [Do PDF]
+---
+
 Isso é o que se chama propriedade shorthand, é uma maneira de adicionar diversos valores em uma única linha.
 
 Não existe shorthand para tudo, porém existem vários shorthands que você pode utilizar no seu código.
@@ -57,3 +69,113 @@ Você pode suprimir as informações, da primeira para a última, exemplo:
 font: bold 2em 'Work Sans';
 
 Percebea que agora não foi declarado o style.
+------
+
+font-variant: small-caps;
+
+[Essa é uma variação bem interessante. Usa as letras capitalizadas(maiúsculas) pequenas no lugar das minúsculas. Achei ótima para leitura]
+
+
+-----------------------------------GPT-----------------------------------
+
+O propriedade `font-variant` em CSS é utilizada para controlar variações específicas do estilo de fonte, especialmente relacionadas a pequenas diferenças no estilo de caracteres, como versões alternativas de letras ou estilos de fonte em pequenas maiúsculas. Ela permite aplicar efeitos como pequenas maiúsculas, versões repetidas ou alternativas de caracteres.
+
+### Exemplos comuns de valores para `font-variant`:
+
+- **normal**: valor padrão, sem variações.
+- **small-caps**: transforma o texto em pequenas maiúsculas.
+- **inherit**: herda o valor do elemento pai.
+- **initial**: redefine para o valor padrão.
+- **none**: nenhuma variação especial.
+
+### Uso comum:
+
+```css
+p {
+  font-variant: small-caps;
+}
+```
+
+Isso fará com que o texto dentro do parágrafo seja exibido em pequenas maiúsculas.
+
+### Notas adicionais:
+- O `font-variant` também pode aceitar uma lista de valores, como `font-variant: small-caps oldstyle-nums;`.
+- Para controle mais avançado de variações de fonte, especialmente para fontes OpenType, existem propriedades específicas como `font-variant-caps`, `font-variant-numeric`, entre outras.
+
+Se precisar de mais detalhes ou exemplos, é só pedir!
+
+Claro! Aqui estão mais detalhes sobre a propriedade `font-variant` em CSS, incluindo seus valores, combinações e usos avançados:
+
+### Visão Geral
+A propriedade `font-variant` permite controlar variações tipográficas específicas, muitas delas relacionadas a fontes OpenType. Ela ajuda a aplicar estilos como pequenas maiúsculas, números em diferentes estilos, ou versões alternativas de certos caracteres, dependendo do suporte da fonte utilizada.
+
+---
+
+### Sintaxe Básica
+
+```css
+selector {
+  font-variant: valor;
+}
+```
+
+### Valores Comuns
+
+| Valor                     | Descrição                                                     |
+|----------------------------|--------------------------------------------------------------|
+| `normal`                   | Valor padrão, sem variações especiais                        |
+| `small-caps`               | Texto em pequenas maiúsculas                                 |
+| `oldstyle-nums`            | Números de estilo antigo (versões clássicas de dígitos)      |
+| `lining-nums`              | Números alinhados na linha de base (modernos)                |
+| `tabular-nums`             | Números de largura fixa, útil para tabelas                   |
+| `proportional-nums`        | Números de largura variável                                  |
+| `fractions`                | Exibe frações em formato de fração (ex: ½)                   |
+| `discretionary-ligatures`  | Ligaduras opcionais em certos contextos                      |
+| `historical-forms`         | Usa formas históricas de caracteres                          |
+| `petite-caps`              | Pequenas maiúsculas alternativas (não suportado por todas fontes) |
+
+---
+
+### Como usar múltiplos valores
+
+Você pode combinar várias variações usando uma lista separada por espaços:
+
+```css
+p {
+  font-variant: small-caps oldstyle-nums;
+}
+```
+
+Isso aplica tanto pequenas maiúsculas quanto números de estilo antigo, se suportado pela fonte.
+
+---
+
+### Notas importantes
+
+- **Compatibilidade**: Nem todos os valores funcionam com todas as fontes. Fontes OpenType específicas suportam várias dessas variações.
+- **Propriedades relacionadas**: Para controle mais granular, CSS oferece propriedades específicas:
+  - `font-variant-caps`: controla diferentes versões de capitalização (small-caps, petite-caps, all-caps, etc.).
+  - `font-variant-numeric`: controla estilos de números.
+  - `font-variant-ligatures`: controla ligaduras tipográficas.
+  - `font-variant-east-asian`: para caracteres asiáticos.
+
+Exemplo com `font-variant-caps`:
+
+```css
+h1 {
+  font-variant-caps: petite-caps;
+}
+```
+
+### Exemplo completo:
+
+```css
+/* Aplica pequenas maiúsculas e números de estilo antigo */
+div {
+  font-variant: small-caps oldstyle-nums;
+}
+```
+
+---
+
+Se desejar, posso também fornecer exemplos visuais ou explicar como usar essas variações com fontes específicas.
