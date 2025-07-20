@@ -1,0 +1,59 @@
+Peso, estilo e shorthand font
+--------------
+Peso (font-weight):
+
+Fontes simples só tem um peso.
+
+No exercício é usada a fonte importada 'Work Sans', pois ela é muito boa para explicar peso da fonte.
+
+Existem os pesos literais: lighter, normal, bold, bolder
+
+Existem os pesos numéricos: de 100 a 900 (são 9).
+
+--
+Lighter: depende da fonte base, mas é tipicamente algo como 300 ou 200.
+
+Normal: 400.
+
+Bold: 700.
+
+Bolder: 700 ou mais, dependendo da fonte.
+
+Esses valores de peso podem variar dependendo da fonte que você está usando, já que nem todas as fontes possuem todos os valores de peso.
+--
+--------------
+Estilo(font-style):
+
+itálico(italic) ou normal.
+
+Já para sublinhado use 'text-decoration':
+
+text-decoration: underline ou none.
+
+
+--------------
+Shorthand (mãozinha) font:
+
+Ao invés de usar, por exemplo
+
+font-family: 'Work Sans', sans-serif;
+font-weight: bolder
+font-size: 3em
+font-style: italic
+
+Você pode usar somente o shorthand 'font', assim (sempre nesta ordem):
+
+font: [font-style] [font-weight] [font-size] [font-family]
+
+exemplo:
+font: italic bolder 3em 'Work Sans', sans-serif;
+
+Isso é o que se chama propriedade shorthand, é uma maneira de adicionar diversos valores em uma única linha.
+
+Não existe shorthand para tudo, porém existem vários shorthands que você pode utilizar no seu código.
+
+Você pode suprimir as informações, da primeira para a última, exemplo:
+
+font: bold 2em 'Work Sans';
+
+Percebea que agora não foi declarado o style.
