@@ -1,0 +1,13 @@
+Capturando as fontes usadas em um site
+
+Extensão do Chrome (plugin)
+
+Vá em Chrome Web Store (não baixe extensões fora daqui)
+
+Fonts Ninja (é um serviço passível de assinatura, mas não é isso que será usado).
+
+Ele não pega se a fonte estiver dentro de uma imagem.
+Ele não abre links enquanto você estiver no modo de seleção de fontes.
+
+---------------
+[Assim como as cores, é possível encontrar a cor via Dev Tools (F12)]
