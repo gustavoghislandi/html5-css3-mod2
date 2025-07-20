@@ -1,0 +1,23 @@
+As diferenças entre id e class
+
+Se você colocar dois id em um mesmo documento HTML funciona, mas não é o certo a ser feito. Deve-se usar a class para isso.
+
+Não dê nome às suas classes de acordo com a forma(CSS) e sim com a funcionalidade.
+
+Imagine colocar uma classe chamada "verde" e depois o cliente pede para colocar "azul". Melhor chamar ela pelo nome o que é a coisa, como, por exemplo, "basico".
+
+Não é recomendado usar acentos, essas coisas.
+
+Como no exemplo abaixo, você pode colocar mais de uma classe.
+
+    <h2 class="avancado destaque">CSS avançado</h2>
+
+Pode-se colocar também id e classe ao mesmo tempo, exemplo:
+
+    <h1 id="principal" class="destaque">Criandos Sites com HTML e CSS</h1>
+
+
+Sempre faça do mais comum ao mais específico.
+
+O id é o que se sobrepõe, por ser mais específico.
+Então primeiro é o id > class > seletor padrão (h1, por exemplo).

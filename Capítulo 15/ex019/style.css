@@ -16,5 +16,22 @@ h1#principal{ /*pode ser somente o id #principal*/
 }
 
 h2 {
-    color: rgb(73, 109,71);
+    color: rgb(67, 117, 65);
+}
+
+.basico {
+    color: rgb(35, 105, 35);
+    font-weight: bold;
+}
+
+.intermediario {
+    color: rgb(172, 172, 49);
+}
+
+.avancado {
+    color: rgb(136, 28, 28);
+}
+
+.destaque {
+    background-color: rgb(255, 255, 106);
 }
