@@ -1,0 +1,11 @@
+Alinhamento de textos com CSS
+
+Nunca alinhe utilizando HTML, só alinhe utilizando CSS.
+
+text-align: [left, center, right, justify];
+
+text-indent: 4em; [Esse é usaddo para indentação ou recuo no começo do texto]
+
+A ABNT recomenda 1,25cm, outros usam 0,5 polegada (1,27cm). Pode ser usado 2,5cm (aproximadamente 1 polegada).
+
+1 polegada resultou em 6em, no que percebi.
