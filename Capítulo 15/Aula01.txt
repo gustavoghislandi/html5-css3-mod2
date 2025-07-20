@@ -1,1 +1,6 @@
 Usando o id com CSS
+
+O que em HTML é id, em CSS é #
+O que em HTML é class, em CSS é .
+
+O nome é case-sensitive, tem que ser idêntico.
