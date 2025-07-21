@@ -1,1 +1,26 @@
 Pseudo-elementos em CSS
+
+---
+Ainda sobre pseudo-classes:
+
+O estado ':visited' é baseado no histórico do navegador. Se você limpar o histórico de navegação, o estado :visited deixará de ser ativado, pois o navegador não "lembrará" mais que o site foi visitado.
+
+    a:visited { /*para quando o site já foi visitado*/
+        color: darkblue;
+    }
+
+
+:active é quando clica com o mouse e mantém clicado.
+---
+
+O pseudo-elemento mexe diretamente no conteúdo periférico do elemento.
+
+:: (duas vezes dois pontos) é o pseudo-elemento em CSS. Exemplo:
+
+
+    a::after {
+        content: ' [link]';
+        text-decoration: none;
+        font-weight: normal;
+        color: red;
+    }

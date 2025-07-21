@@ -4,13 +4,59 @@
     <meta charset='UTF-8'>
     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
     <title>Links</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color: rgb(173, 0, 0);
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited { /*para quando o site já foi visitado*/
+            color: darkblue;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: black;
+        }
+
+        a:active{ /*quando é clicado e  segura o clique, tipo hold em inglês*/
+            color: yellow;
+        }
+
+        .especial{
+            background-color: rgb(255, 161, 161);
+        }
+
+        .especial::before {
+            content: '→';
+        }
+
+        .especial::after {
+            content: ' [link]';
+            text-decoration: none;
+            font-weight: normal;
+            color: darkgray;
+        }
+
+        .link:hover{
+            background-color: darkgreen;
+            color: white;
+        }
+    </style>
 </head>
 <body>
     <h1>Personalizando Links</h1>
     <ul>
-        <li><a href="https://gustavoghislandi.github.io">Repositório GitHub</a></li>
-        <li><a href="">Canal do Youtube</a></li>
-        <li><a href="">Site do Curso em Video</a></li>
+        <li><a href="https://github.com/gustavoghislandi/" target="_blank">Repositório GitHub</a></li>
+        <li><a href="https://www.youtube.com/cursoemvideo" target="_blank" class="especial">Canal do Youtube</a></li>
+        <li><a href="https://www.cursoemvideo.com" target="_blank" class="especial">Site do Curso em Video</a></li>
+        <a href="pag002.html" class="link">Página
+2</a>.
     </ul>
 </body>
 </html>
