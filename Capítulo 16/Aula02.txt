@@ -1,0 +1,9 @@
+Modelo de Caixas na prática (parte 1)
+
+Em Dev Tools, Elements, Styles, sempre que você ver "user agent" é o navegador. No caso, ele está se referindo ao "user agent stylesheet", que são as configurações CSS que o navegador fez a partir das configurações básicas dos elementos. O h1, por exemplo, é um display: block (que é um elemento do tipo box-level)
+
+É possível fazer edições via Dev Tools sem mexer no original, você pode quando clicado no valor do elemento mudar via scroll do mouse ou setas para cima e para baixo, tendo resposta imediata do navegador. [É bem legal]
+
+Quando você acessar lá, perceba que o body não ocupa a janela inteira. Se você estiver com um h1 e um p, ele vai ocupar só o equivalente a esses elementos (com a margin padrão de 8px, se você não alterar. E ele vem no display block. Como ele costuma vir sozinho cobrindo todo o resto do código, não percebemos). [Eu testei e não tem como ter 2 bodys no mesmo HTML.Ele vai pegar o começo do primeiro e o final do último]
+
+A lógica do padding começa de cima (top) e gira no sentido de um ponteiro de relógio girando (horário).

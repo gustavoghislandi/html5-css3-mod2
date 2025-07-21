@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang='pt-BR'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Modelo de Caixas</title>
+    <style>
+        h1{
+            background-color: lightgreen;
+            height: 300px;
+            width: 300px;
+            border-width: 10px;
+            border-style: solid;
+            border-color: darkgreen;
+
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            
+        }
+
+        a {
+            border-width: 10px;
+            border-style: groove;
+            border-color: red;
+
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+        }
+        .highlight {
+  border: 3px groove #3498db;
+  padding: 20px;
+  background-color: #f0f8ff;
+}
+input {
+  border: 2px groove #2ecc71;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Daqui para baixo fiquei testando groove com IA */
+.card {
+  border: 4px groove #e74c3c;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+blockquote {
+  border-left: 4px groove #8e44ad;
+  padding-left: 15px;
+  font-style: italic;
+  background-color: #f8f8f8;
+  margin: 20px;
+}
+.nav-link {
+  border: 2px groove #2ecc71;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #2ecc71;
+  border-radius: 5px;
+  transition: all 0.3s;
+}
+
+.nav-link:hover {
+  background-color: #2ecc71;
+  color: white;
+}
+.list-items li {
+  border: 2px groove #f39c12;
+  padding: 10px;
+  margin-bottom: 5px;
+  list-style: none;
+}
+.card2 {
+  border: 4px groove #3498db; /* Borda com efeito de sulco */
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 12px; /* Bordas arredondadas */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra sutil para profundidade */
+  max-width: 300px;
+  margin: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #2ecc71; /* Cor de fundo */
+  color: white;
+  border: 3px groove #27ae60; /* Borda grooved */
+  border-radius: 8px; /* Bordas arredondadas */
+  outline: none;
+  transition: all 0.3s ease-in-out; /* Transição suave */
+}
+
+.btn:hover {
+  background-color: #27ae60; /* Muda a cor de fundo no hover */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra suave no hover */
+  transform: scale(1.05); /* Leve aumento de tamanho no hover */
+}
+
+
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa box-level</h1>
+    <p>Parágrafos também são exemplos de box-level, mas os <a href="">links são exemplos de caixas inline-level</a>. Vamos ver como tudo isso funciona.</p>
+
+
+    <!-- Daqui para baixo fiquei testando groove com IA -->
+    <div class="highlight">
+  <h2>Oferta Especial</h2>
+  <p>Aproveite a promoção por tempo limitado!</p>
+  <input type="text" placeholder="Digite seu nome" />
+
+</div>
+<div class="card">
+  <h3>Produto 1</h3>
+  <p>Descrição breve do produto.</p>
+  <button>Comprar</button>
+</div>
+<blockquote>
+  "O sucesso é a soma de pequenos esforços repetidos dia após dia."
+</blockquote>
+<a href="#" class="nav-link">Home</a>
+<ul class="list-items">
+  <li>Item 1</li>
+  <li>Item 2</li>
+  <li>Item 3</li>
+</ul>
+<div class="card2">
+  <h3>Produto Premium</h3>
+  <p>Este produto oferece qualidade e conforto excepcionais.</p>
+  <button>Saiba mais</button>
+</div>
+<button class="btn">Clique Aqui</button>
+
+
+</body>
+</html>
