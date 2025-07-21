@@ -18,12 +18,18 @@
         nav{
             background-color: rgb(102, 102, 102);
             padding: 3px;
+            box-shadow: 1px 1px 1px black;
         }
         nav > a {
             text-decoration: none;
             color: white;
             font-weight: bold;
             margin-right: 30px;
+
+            box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5); /*Coloque sem querer e ficou muio legal! Parece um botãozinho*/
+            border: 1px solid black; /*Aqui reforçou a aparência de botão */
+
+            border-radius: 8px; /*Deixando o botão mais bonito ainda */
 
             /* Adicionado para teste com os efeitos do hover abaixo */
             padding-right: 10px; 
@@ -42,8 +48,16 @@
             /* Aqui eu teste e ficou um efeito interessante/curioso e funcional. A ideia era a afastar os outros mesmo. */
             padding-right: 10px; 
             padding-left: 10px;
-            background-color: silver;
-            border-radius: 8px;
+            /* background-color: silver; */
+
+            /* border-radius: 8px; */ /* Tirei fora porque o shadow-box deu um efeito melhor */
+
+            /* Esta configuração abaixo, suprimindo o background-color, faz criar um afundamento. É excelente para colocar dentro de um onClick */
+            /* box-shadow: inset 1px 1px 1px black; */
+        }
+
+        nav > a:active{
+            box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.94);
         }
         main{
             background-color: white;
@@ -62,6 +76,9 @@
             color: white;
             text-align: center;
             padding: 1px;
+            margin: 4px;
+        }
+        footer > p {
             margin: 0px;
         }
     </style>

@@ -1,0 +1,35 @@
+Sombra nas Caixas (box-shadow)
+
+As caixas no exemplo caixa02 que estávamos escrevendo são como papéis em cima de uma mesa, eles vão fazer sombra.
+
+Mas muito cuidado, você não precisa exagerar, você não precisa mostrar que tem sombra no seu site. É como naquela questão sobre as cores, o cérebro vai perceber.
+
+Sombras também tem shorthand.
+
+box-shadow: X-offset Y-offset blur spread color;
+
+box-shadow: horizontal vertical embaçamento espalhamento cor;
+
+box-shadow: 1px 1px 1px black; (aqui está sem espalhamento)
+
+Ainda dá pra colocar um efeito de afundamento, com o "inset" colocado no início. Ele faz a sombra ficar dentro e não fora da caixa.
+
+box-shadow: inset 1px 1px 1px 1px black; 
+
+Lembre que você pode usar as Dev Tools para ver como fica melhor a sombra.
+
+Acabei de fazer (iniciando com uma linha escrita no lugar errado) uns efeitos de botão top no caixa02.html. 
+
+A base para esse botão top começou no box-shadow: 1px 1px 1px black; na caixa do link (a).
+
+--
+
+Esta configuração abaixo, faz criar um afundamento. É excelente para colocar dentro de um onClick. Coloque o box-shadow na posição comum e depois no onClick (ou no :active para ver como fica), que faz o afundamento.
+        
+        box-shadow: inset 1px 1px 1px black;
+
+ENTÃO, BASICAMENTE, "inset" dá a sensação de afundamento; enquanto que sombreamento padrão dá a sensação de elevação do elemento.
+
+--
+
+A sombra, para dar o efeito de sombra não pode ser uma cor forte. Use o efeito de transparência para isso.
