@@ -18,6 +18,9 @@
             padding-bottom: 10px;
             padding-left: 10px;
             
+            /* margin: 100px auto; */
+            margin: 20px 10px 100px auto; /*atenção ao fenômeno que ocorre aqui. Melhor explicado no Aula03.txt */
+            
         }
 
         a {
@@ -29,6 +32,11 @@
             padding-right: 10px;
             padding-bottom: 10px;
             padding-left: 10px;
+
+            /* Descomente abaixo para brincar e aprender a usar inline-block. Parece ser para casos bem específicos.*/
+            /*
+            display: inline-block;
+            height: 400px; */
         }
         .highlight {
   border: 3px groove #3498db;
@@ -39,6 +47,11 @@ input {
   border: 2px groove #2ecc71;
   padding: 10px;
   border-radius: 5px;
+}
+
+/* AQUI EU TESTEI O OUTLINE COM FOCUS, PARA ACESSIBILIDADE COM TAB */
+input:focus {
+  outline: 5px solid orange;
 }
 
 /* Daqui para baixo fiquei testando groove com IA */

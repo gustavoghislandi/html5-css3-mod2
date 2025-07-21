@@ -1,0 +1,88 @@
+Modelo de Caixas na prática (parte 2)
+
+As configurações das CSS sempre serão no sentido horário começando pelo topo(top, right, bottom, left).
+
+margin: auto; vai centralizar em todas as direções.
+
+margin: 100px auto; vai fazer 100px top e 100px bottom (verticalmente), e vai ajustar automaticamente ao centro horizontalmente(right-left)
+
+Lembrando que se for um texto, para centralizar horizontalmente é text-align: center;
+
+Outline fica entre a borda e a margem.
+
+O outline não aparece na imagem que aparece nas Dev Tools.
+
+---------------Sobre outline, GPT -----------------------------
+
+ motivo é que o outline não é considerado uma "propriedade de caixa" (box model), como margin, border e padding. Por isso, ele não aparece naquela área específica das Dev Tools onde você edita o box model visualmente. O outline é uma propriedade separada, usada para fins de acessibilidade e não afeta o layout da caixa do elemento.
+You said:
+Explique melhor essa questão da acessibilidade.
+ChatGPT said:
+
+O outline é amplamente utilizado para melhorar a acessibilidade em páginas web, principalmente para usuários que navegam com o teclado, como pessoas com deficiência visual ou motora.
+
+Quando um usuário navega pela página usando a tecla "Tab", o navegador usa o outline para destacar o foco atual do elemento (como links, botões, formulários, etc.). Isso facilita a navegação, pois o foco é visualmente evidente para o usuário, indicando qual elemento está selecionado.
+Importância para a acessibilidade:
+
+    Melhor navegação para deficientes visuais: Usuários que não conseguem ver a tela claramente ou que usam leitores de tela dependem da indicação de foco visual, como o outline.
+
+    Navegação sem mouse: Para quem não usa o mouse (por exemplo, pessoas com mobilidade reduzida), o outline é crucial para navegar entre os elementos interativos da página.
+
+Exemplo prático:
+
+    Comum: Quando você usa a tecla "Tab" para navegar, o botão ou link receberá uma borda (ou contorno) visível, muitas vezes em azul ou laranja, dependendo do navegador. Isso indica qual elemento está em foco.
+
+Embora o outline seja muito útil para a acessibilidade, ele não afeta o layout do elemento (não ocupa espaço ou muda seu tamanho), por isso não faz parte do modelo de caixa (box model), que lida com margens, bordas e preenchimentos.
+Problemas:
+
+    Desabilitar o outline: Alguns desenvolvedores podem, por engano ou por preferências estéticas, remover o outline via CSS, o que pode tornar a navegação por teclado mais difícil e até impossível para algumas pessoas.
+
+Por isso, é recomendável sempre garantir que, se você customizar o outline, o foco visual não seja removido completamente. Um bom padrão é sempre substituir, não eliminar.
+
+Por exemplo:
+
+:focus {
+  outline: 2px solid #4D90FE; /* Cor de contorno customizada */
+}
+
+Isso melhora a experiência de navegação sem comprometer a acessibilidade.
+
+---------------Sobre outline, GPT -----------------------------
+
+Ou seja, o outline é bom para colocar na pseudo:classe focus.
+
+border e outline tem shorthand que são por width, style, color.
+Exemplos:
+
+ border: 10px solid black;
+
+ outline: 5px solid orange;
+
+Para padding e margin, os shorthands(iguais) são(modelos abaixo):
+
+padding: top right bottom left; (horário)
+
+margin: top&bottom right&left;
+
+padding: todosIguais;
+
+Exemplos:
+
+margin: 10px 20px 30px 40px;
+
+padding: 10px 20px;
+
+margin: 10px;
+
+Lembrando que pode-se usar auto:
+Exemplos:
+
+margin: auto;
+padding: 100px auto;
+margin: 20px auto 40px auto; (centraliza horizontalmente)
+
+margin: 20px 10px 100px auto; (nesse caso, coloca 10px à direita e o restante "preenche", empurrando o bloco para o lado direito da tela. Se tivesse um valor numérico (20px) no lugar de auto, ele ficaria com 20px à esquerda, e portanto o bloco iria lá para a esquerda da tela)
+
+----
+
+Quando você usa "inline" o elemento não dispões de altura e largura modificáveis, porém existem padding e margin ainda. Contudo, existe o "inline-block", no qual você consegue configurar altura e largura.
