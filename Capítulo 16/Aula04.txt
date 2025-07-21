@@ -1,0 +1,7 @@
+Grouping Tags em HTML5
+
+As Tags do HTML5 são semânticas.
+
+Você não precisa necessariamente colocar article dentro de section, você organiza conforme for mais adequado.
+
+Não fique somente copiando os site dele. [Eu fiz pequenos ajustes por iniciativa própria]

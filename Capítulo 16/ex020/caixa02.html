@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang='pt-BR'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+        header {
+            background-color: white;
+            padding:  10px;
+            margin: 10px;
+        }
+        nav{
+            background-color: rgb(102, 102, 102);
+            padding: 3px;
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+
+            /* Adicionado para teste com os efeitos do hover abaixo */
+            padding-right: 10px; 
+            padding-left: 10px;
+            background-color: transparent;
+
+            /* Outro teste */
+            display: inline-block;
+            height: 30px;
+            line-height: 30px; /*É necessário deixar a line-height igual a height para o texto centralizar verticalmente. Isso sem flex ou grid.*/
+            
+        }
+        nav > a:hover{
+            /* text-decoration: underline; */
+
+            /* Aqui eu teste e ficou um efeito interessante/curioso e funcional. A ideia era a afastar os outros mesmo. */
+            padding-right: 10px; 
+            padding-left: 10px;
+            background-color: silver;
+            border-radius: 8px;
+        }
+        main{
+            background-color: white;
+            padding:  10px;
+            margin: 10px;
+        }
+        article{
+            background-color: lightgray;
+            padding: 5px;
+        }
+        article > aside{
+            background-color: rgb(153, 153, 153);
+        }
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Idiomas</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícia sobre Latim</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium optio consectetur nihil facere a nemo harum ipsa labore quidem, sit et, alias unde, at tempore amet vero cupiditate odio reiciendis!</p>
+                <aside>
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        Desenvolvido por mim
+    </footer>
+</body>
+</html>
