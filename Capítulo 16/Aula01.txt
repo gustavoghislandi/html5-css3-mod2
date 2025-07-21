@@ -1,0 +1,73 @@
+Modelo de Caixas: primeiros passos
+
+Modelo de caixas vem do inglês "box model".
+
+Ele é aplicável ao HTML e ao CSS também.
+
+Serve para ajudar a organizar o site.
+
+Tudo que é exibido na tela é exibido em forma de tela.
+
+As caixas podem ficar uma dentro da outra, formando uma hierarquia de caixas. 
+Um elemento dentro do outro. O termo usado para isso é "aninhamento".
+
+Todo elemento visível na tela dentro de um site é uma caixa.
+
+No momento de formatar com CSS, está-se, na verdade, formatando a caixa em que se está exibindo o elemento (no exemplo dado, é o h1 e sua caixa).
+
+Uma caixa em um tamanho e é identificado por duas medidas "height"(altura) e "width"(largura).
+
+A linha ao redor do conteúdo chama-se "border"(borda).Ela inicialmente fica bem rente à caixa.
+
+O espaço de diferença entre a caixa e a borba chama-se "padding"(acolchoamento). Ele pode ser configurado em qualquer uma das direções(sentidos).
+
+Se houver uma outra caixa embaixo (ou ao lado ou acima, enfim) dessa caixa, a borda dela ficará grudada na borda da outra caixa. E o espaço que vai da borda de uma caixa até a borda(ou margin) de outra chama-se "margin" (margem).
+
+Existe um outro contorno, que seria como a borda externa da borda, que se chama "outline"(linha de fora, contorno, traçado ou arredores).
+--GPT--
+"O border cria uma borda ao redor do elemento, enquanto o outline também cria uma linha ao redor, mas sem afetar o layout."
+--Fim--
+
+------------------
+Tipos de caixa
+
+"box-level":
+Ao adicionar uma nova caixa, o box-level sempre se inicia em uma linha nova (vai pular uma linha).
+Ele sempre ocupará a largura total da tela (100% do viewport).
+Então, os outros box vêm abaixo dele, sempre pulando linha.
+Exemplos:
+<div></div>
+
+<h1> até <h6>
+<p>
+<main>
+<header>
+<nav>
+<article>
+<aside>
+<footer>
+<form>
+<video>
+
+
+"inline-level":
+Quando uma nova caixa é adicionada, ele mantém a caixa na mesma linha, ocupa o conteúdo que tiver que ocupar e depois continua ainda na mesma linha. Então, ao contrário do box-level, ele tende a manter tudo na mesma linha, sem ocupar a width até o final, ocupando somente o espaço da nova caixa.
+Exemplo:
+<span></span>
+
+<a>
+<code>
+<small>
+<strong>
+<em>
+<sup>
+<sub>
+<label>
+<button>
+<input>
+<select>
+
+Então, por exemplo, quando você quer que pule uma linha use div, quando quer que siga na mesma linha, use span.
+
+------
+Esse aí é o padrão, mas dá pra configurar tudo depois.
