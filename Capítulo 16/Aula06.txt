@@ -1,0 +1,20 @@
+Caixas com vértices arredondados
+
+Se a div for quadrada, é possível fazer um círculo com o border-radius.
+
+border-radius também tem 4 sentidos (top, right, bottom, left) e, portanto, também tem um shorthand.
+
+Design deve ser com discrição. Se for arredondar, arredonde suavemente. É o que já deve ser feito com sombra, cores, tipografia, etc...
+
+--
+Maneira de fazer um círculo (border-radius de 50% em um block quadrado):
+
+div#bola{
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50%;
+        }
+
+--

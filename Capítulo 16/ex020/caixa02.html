@@ -19,7 +19,7 @@
         nav{
             background-color: rgb(102, 102, 102);
             padding: 3px;
-            box-shadow: 1px 1px 1px black;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.308);
         }
         nav > a {
             text-decoration: none;
@@ -27,7 +27,7 @@
             font-weight: bold;
             margin-right: 30px;
 
-            box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5); /*Coloque sem querer e ficou muio legal! Parece um botãozinho*/
+            box-shadow: 1px 1px 0.9px rgba(0, 0, 0, 0.5); /*Coloque sem querer e ficou muio legal! Parece um botãozinho*/
             border: 1px solid black; /*Aqui reforçou a aparência de botão */
 
             border-radius: 8px; /*Deixando o botão mais bonito ainda */
@@ -64,6 +64,9 @@
             background-color: white;
             padding:  10px;
             margin: 10px;
+            border-radius: 25px 25px 10px 10px;
+            box-shadow: 4px 4px 9px rgba(0, 0, 0, 0.369);
+
         }
         article{
             background-color: lightgray;
@@ -77,10 +80,93 @@
             color: white;
             text-align: center;
             padding: 1px;
-            margin: 4px;
+            margin: 4px 0px;
         }
         footer > p {
             margin: 0px;
+        }
+
+        /* Daqui para baixo eu comecei com uma bola. E, sim, eu estou fazendo do jeito mais difícil, só para ver se consigo. */
+        div#bola{
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50%;
+        }
+        div#bola2{
+            height: 50px;
+            width: 50px;
+            margin: 10px;
+            margin-left: 35px;
+            margin-top: -85px;
+            background-color: rgb(255, 0, 0);
+            border-radius: 50%;
+        }
+        div#bola3{
+            height: 25px;
+            width: 25px;
+            margin: 10px;
+            margin-left: 47.5px;
+            margin-top: -47.5px;
+            background-color: black;
+            border-radius: 50%;
+        }
+        div#bola4{
+            height: 100px;
+            width: 100px;
+            background-color: white;
+            border-radius: 50%;
+            margin: auto;
+            margin-top: -72.5px;
+        }
+        div#bola5{
+            height: 50px;
+            width: 50px;
+            background-color: rgb(28, 119, 0);
+            border-radius: 50%;
+            margin: auto;
+            margin-top: -75px;
+        }
+        div#bola6{
+            height: 25px;
+            width: 25px;
+            background-color: black;
+            border-radius: 50%;
+            margin: auto;
+            margin-top: -37.5px;
+        }
+        /* div#fundo{
+            background-color: yellow;
+        } */
+        div#bola7{
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            margin-left: auto;
+            background-color: white;
+            border-radius: 50%;
+            margin-top: -62.5px;
+        }
+        div#bola8{
+            height: 50px;
+            width: 50px;
+            margin: 10px;
+            margin-right: 35px;
+            margin-left: auto;
+            margin-top: -85px;
+            background-color: rgb(0, 102, 255);
+            border-radius: 50%;
+        }
+        div#bola9{
+            height: 25px;
+            width: 25px;
+            margin: 10px;
+            margin-right: 47.5px;
+            margin-left: auto;
+            margin-top: -47.5px;
+            background-color: black;
+            border-radius: 50%;
         }
     </style>
 </head>
@@ -112,5 +198,17 @@
     <footer>
         Desenvolvido por mim
     </footer>
+    <!-- <div id="fundo"> -->
+    <div id="bola"></div>
+    <div id="bola2"></div>
+    <div id="bola3"></div>
+    <!-- </div> -->
+    <div id="bola4"></div>
+    <div id="bola5"></div>
+    <div id="bola6"></div>
+
+    <div id="bola7"></div>
+    <div id="bola8"></div>
+    <div id="bola9"></div>
 </body>
 </html>
