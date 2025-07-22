@@ -4,4 +4,8 @@ As Tags do HTML5 são semânticas.
 
 Você não precisa necessariamente colocar article dentro de section, você organiza conforme for mais adequado.
 
+'Segundo a documentação oficial da W3C, “uma seção é um agrupamento temático de conteúdos, tipicamente com um cabeçalho”.' [Do PDF]. Ou seja, colocar header dentro do section (seção temática) é uma boa.
+
+"Um artigo é um elemento que vai conter um conteúdo que pode ser lido de forma independente e dizem respeito a um mesmo assunto." [Do PDF]
+
 Não fique somente copiando os site dele. [Eu fiz pequenos ajustes por iniciativa própria]

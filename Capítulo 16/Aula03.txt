@@ -12,6 +12,8 @@ Outline fica entre a borda e a margem.
 
 O outline não aparece na imagem que aparece nas Dev Tools.
 
+O cálculo da sua espessura faz parte da margem estabelecida. [Contudo, testei e ele pode ir além da margem, sobrepondo ela e outros conteúdos. Ao que tudo indica, fica uma (ou mais) camada(s) acima.]
+
 ---------------Sobre outline, GPT -----------------------------
 
  motivo é que o outline não é considerado uma "propriedade de caixa" (box model), como margin, border e padding. Por isso, ele não aparece naquela área específica das Dev Tools onde você edita o box model visualmente. O outline é uma propriedade separada, usada para fins de acessibilidade e não afeta o layout da caixa do elemento.
@@ -86,3 +88,9 @@ margin: 20px 10px 100px auto; (nesse caso, coloca 10px à direita e o restante "
 ----
 
 Quando você usa "inline" o elemento não dispões de altura e largura modificáveis, porém existem padding e margin ainda. Contudo, existe o "inline-block", no qual você consegue configurar altura e largura.
+
+----
+
+"NOVIDADE DAS CSS3: Existe a nova propriedade box-sizing onde podemos definir que as dimensões height e width não são medidas apenas a partir do conteúdo (content-box) e sim pela borda (border-box)." [Do PDF]
+
+Ou seja, calcula o padding e a border junto, mas não a margin. Uma das opções calcula o conteúdo junto (largura e altura), outra não.
