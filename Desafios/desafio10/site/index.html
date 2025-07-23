@@ -42,11 +42,11 @@
 
                 <p>
                     A primeira tentativa de criar um mascote surgiu em 2007 e veio de um desenvolvedor chamado <a
-                        href="">
+                        href="#">
                         Dan
                         Morrill</a>. Ele
                     conta
-                    que abriu o <a href="">Inkscape</a> (software livre para vetorização de imagens) e criou sua própria
+                    que abriu o <a href="#">Inkscape</a> (software livre para vetorização de imagens) e criou sua própria
                     versão de
                     robô. O objetivo
                     era
@@ -56,11 +56,17 @@
                     de um mascote.
                 </p>
 
-                <img src="../pacote-projeto-d010/imagens/dan-droids.png"
+                <!-- Essa picture não é o jeito de responsividade que gosto, mas coloquei também para me provar que sei fazer. -->
+                <picture>
+                    <source media="(max-width: 1000px)" srcset="../pacote-projeto-d010/imagens/dan-droids-pq.png" type="image/png">
+                    <!-- Se a imagem for até 900px, mostrará a foto "dan-droids-pq.png", acima disso irá para a padrão no src de img-->
+                    <img src="../pacote-projeto-d010/imagens/dan-droids.png"
                     alt="4 Dan Droids, um verde, um amarelo, um azul e um vermelho.">
+                </picture>
 
                 <p>Essa primeira versão bizarra até foi batizada em homenagem ao seu criador: seriam os
-                    <strong>Dandroids</strong>.</p>
+                    <strong>Dandroids</strong>.
+                </p>
 
                 <h2>Surge um novo mascote</h2>
 
@@ -68,13 +74,17 @@
                     A ideia de ter um mascote foi amadurecendo e a missão foi passada para uma profissional da área. A
                     ilustradora
                     Russa
-                    <a href="">Irina Blok</a>, também funcionária do Google, ficou com a missão de representar o pequeno
+                    <a href="#">Irina Blok</a>, também funcionária do Google, ficou com a missão de representar o pequeno
                     robô de uma
                     maneira mais
                     agradável.
                 </p>
 
-                <img src="../pacote-projeto-d010/imagens/irina-blok.jpg" alt="Face da Irina Block">
+                <picture>
+                    <source media="(max-width: 1100px)" srcset="../pacote-projeto-d010/imagens/irina-blok-pq.jpg" type="image/png">
+                    <!-- Se a imagem for até 1100px, mostrará a foto "irina-blok-pq.jpg", acima disso irá para a padrão no src de img-->
+                    <img src="../pacote-projeto-d010/imagens/irina-blok.jpg" alt="Face da Irina Block">
+                </picture>
 
                 <p>
                     A ideia principal da Irina era representar tudo graficamente com poucos traços e de forma mais
@@ -85,7 +95,8 @@
                     do Android.
                 </p>
 
-                <img src="../pacote-projeto-d010/imagens/bugdroid.png" alt="Bugdroid">
+                <!-- Coloquei ao redor de picture para padronizar e usar o mesmo CSS das outras imagens, mesmo que esta só tenha um único arquivo. -->
+                <picture><img id="bugdroid-img" src="../pacote-projeto-d010/imagens/bugdroid.png" alt="Bugdroid"></picture>
 
                 <p>
                     A principal inspiração para os traços do novo Bugdroid veio daqueles bonequinhos que ilustram portas
@@ -142,7 +153,7 @@
                 </p>
 
                 <p>
-                    Acesse aqui o site <a href="">Android History</a> para conhecer a sequência das versões "adocicadas"
+                    Acesse aqui o site <a href="#">Android History</a> para conhecer a sequência das versões "adocicadas"
                     e o que cada
                     uma
                     trouxe para o
