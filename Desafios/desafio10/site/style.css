@@ -1,26 +1,28 @@
 @charset "UTF-8";
+
 @font-face {
     font-family: "Bebas Neue";
     src: url(../pacote-projeto-d010/fontes/bebas_neue/BebasNeue-Regular.otf),
-         url(../pacote-projeto-d010/fontes/bebas_neue/BebasNeue-Regular.ttf);
+        url(../pacote-projeto-d010/fontes/bebas_neue/BebasNeue-Regular.ttf);
 }
+
 @font-face {
     font-family: "Idroid";
     src: url(../pacote-projeto-d010/fontes/idroid.otf);
 }
 
-body{
+body {
     margin: 0;
     background-color: #98d8b0;
 }
 
-.main-header{
+.main-header {
     background-image: linear-gradient(to top, #295536, #6acc87);
     color: white;
-    
+
 }
 
-.main-header > h1 {
+.main-header>h1 {
     font-family: "Bebas Neue";
     text-transform: uppercase;
     font-weight: 400;
@@ -31,7 +33,7 @@ body{
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.534);
 }
 
-.main-header > p {
+.main-header>p {
     font-family: Arial, Helvetica, sans-serif;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.534);
     text-align: center;
@@ -40,11 +42,11 @@ body{
     margin: 0px auto;
 }
 
-.main-header > nav{
+.main-header>nav {
     padding: 10px;
 }
 
-.main-header > nav> a{
+.main-header>nav>a {
     text-decoration: none;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
@@ -52,7 +54,7 @@ body{
     padding: 20px;
 }
 
-main{
+main {
     background-color: white;
     display: block;
     width: 45%;
@@ -71,16 +73,17 @@ main p {
     font-size: 18px;
 }
 
-.principal{
+.principal {
     margin: 0px;
     padding: 0px;
 }
 
-.principal-article{
+.principal-article {
     padding: 0px 20px;
 }
 
-.principal-article > h1, h2 {
+.principal-article>h1,
+h2 {
     font-family: "Idroid";
     color: #295536;
     font-family: "Idroid";
@@ -88,7 +91,7 @@ main p {
     padding: 1em;
 }
 
-.principal-article > h1 {
+.principal-article>h1 {
     font-family: "Idroid";
     color: #295536;
     margin: 0px;
@@ -96,7 +99,7 @@ main p {
     padding-top: 1em;
 }
 
-.principal-article > h2 {
+.principal-article>h2 {
     background-image: linear-gradient(to right, #cce7d7, white);
     padding: 0px 10px;
 }
@@ -109,10 +112,11 @@ main p {
     font-size: 18px;
 } */
 
-.principal-article > img {
+.principal-article>img {
     display: block;
     margin: 0px auto;
-    width: 100%; /*Prefiro esse tipo de responsividade do que a que o Guanabara colocou. Mas vou colocar também a dele, com imagens em tamanhos diferentes conforme o tamanho da tela*/
+    width: 100%;
+    /*Prefiro esse tipo de responsividade do que a que o Guanabara colocou. Mas vou colocar também a dele, com imagens em tamanhos diferentes conforme o tamanho da tela*/
 }
 
 .principal a {
@@ -121,14 +125,15 @@ main p {
 }
 
 .principal a::after {
-    content: ' \1F517'; /*U+1F517*/
+    content: ' \1F517';
+    /*U+1F517*/
 }
 
 .principal strong {
     color: #2c583a;
 }
 
-.video-android{
+.video-android {
     background-color: #295536;
     padding: 20px 40px;
 }
@@ -136,38 +141,40 @@ main p {
 iframe {
     display: block;
     width: 100%;
-    aspect-ratio: 16 / 9; /* mantém a proporção 16:9 */
-  }
+    aspect-ratio: 16 / 9;
+    /* mantém a proporção 16:9 */
+}
 
-.extra-article{
+.extra-article {
     margin: 10px 20px;
     border-radius: 1em;
     background-color: #c5ebd6;
     padding-bottom: 1em;
 }
 
-.extra-header{
+.extra-header {
     background-color: #519e68;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 1em 1em 0px 0px;
 }
 
-.extra-header h1{
+.extra-header h1 {
     font-size: 1em;
     font-weight: bold;
     padding: 10px;
 }
 
 .extra-article li {
-    list-style: '\2714'; /*U+2714*/
+    list-style: '\2714';
+    /*U+2714*/
 }
 
-.extra-article li span{
+.extra-article li span {
     text-decoration: underline;
 }
 
-footer{
+footer {
     background-color: #1a5c38;
     text-align: center;
     color: white;
