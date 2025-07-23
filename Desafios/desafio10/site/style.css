@@ -1,0 +1,100 @@
+@charset "UTF-8";
+@font-face {
+    font-family: "Bebas Neue";
+    src: url(../pacote-projeto-d010/fontes/bebas_neue/BebasNeue-Regular.otf),
+         url(../pacote-projeto-d010/fontes/bebas_neue/BebasNeue-Regular.ttf);
+}
+@font-face {
+    font-family: "Idroid";
+    src: url(../pacote-projeto-d010/fontes/idroid.otf);
+}
+
+body{
+    margin: 0;
+    background-color: #98d8b0;
+}
+
+header{
+    background-image: linear-gradient(to top, #295536, #6acc87);
+    color: white;
+    
+}
+
+header > h1 {
+    font-family: "Bebas Neue";
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 3em;
+    margin: 0px;
+    text-align: center;
+    padding: 0.5em;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.534);
+}
+
+header > p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.534);
+    text-align: center;
+    display: block;
+    width: 400px;
+    margin: 0px auto;
+}
+
+header > nav{
+    padding: 10px;
+}
+
+header > nav> a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 20px;
+}
+
+main{
+    background-color: white;
+    display: block;
+    width: 60%;
+    margin: 0px auto;
+}
+
+main{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.principal{
+    margin: 0px;
+    padding: 0px;
+}
+
+.principal > article{
+    padding: 0px 20px;
+}
+
+.principal > article > h1, h2 {
+    font-family: "Idroid";
+    color: #295536;
+    font-family: "Idroid";
+    margin: 0px;
+    padding: 1em;
+}
+
+.principal > article > h1 {
+    font-family: "Idroid";
+    color: #295536;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 1em;
+}
+
+.principal > article > h2 {
+    background-image: linear-gradient(to right, #cce7d7, white);
+    padding: 0px 10px;
+}
+
+.principal > article > p {
+    padding: 0px 10px;
+    text-indent: 3.5em;
+    text-align: justify;
+}
