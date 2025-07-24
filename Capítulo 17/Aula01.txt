@@ -1,0 +1,8 @@
+Criando um projeto a partir do zero
+
+Eu já fiz todo o projeto do Desafio 10. Daqui para frente vou elencar as diferenças.
+
+----------
+Ele chamou o arquivo de android.html ao invés de index.html, porque supostamente não é a página principal.
+
+Ele colocou um título: "Como surgiu o mascote do Android?"

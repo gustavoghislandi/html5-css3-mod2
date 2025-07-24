@@ -1,0 +1,21 @@
+Navegando pelo projeto pronto
+
+Ele disse para não usar esse layout para todos os site. Disse para ser criativo e fazer outros diferentes. Evidentemente que nesse caso não deveria ter variações.
+
+----------
+
+Ele colocou uma pseudo-classe :hover nos links do Menu. Então eu vou fazer isso.
+
+Ele mudou a cor dos Links de branco para um verde claro. Não pretendo mudar isso.
+
+Também colocou um background color verde nos links externos e mudou a cor da letra. Era branco na foto original.
+
+Ele colocou "title" nos items da lista. Posso colocar também.
+
+Ele colocou uma largura fixa que depois de saírem as bordas de margin laterais, aí começa a diminuir o tamanho. Isso Eu gostei e quero fazer, o meu está mudando o tamanho do principal junto com a resolução.
+
+Aparentemente, esqueci de dividir a lista em dois. Eu poderia dividir em duas divs, mas não sei se ele vai fazer assim. Vou aguardar para alterar depois.
+
+----------
+
+Já alterei os link do menu conforme ele mostrou no vídeo. Agora tem :hover e coloração conforme. Foi simples, sinal que os fundamentos estão ficando vem solidificados.
