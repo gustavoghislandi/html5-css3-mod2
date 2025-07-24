@@ -193,3 +193,8 @@ footer {
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
 }
+
+footer a {
+    text-decoration: none;
+    color: white;
+}

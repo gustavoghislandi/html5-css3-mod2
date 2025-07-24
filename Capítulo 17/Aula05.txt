@@ -1,0 +1,34 @@
+Organizando o conteúdo do site
+
+Ele colocou o aside dele como um h3. [Pra mim é um h1, porque é uma section e artigo novo. Hierarquia... mesmo que fosse no aside, eu colocaria h1]
+
+Ele está colocando que os nomes das versões da lista são abreviações
+
+<abbr title=""> [Então ele vai colocar o style de underline aqui, eu usei 'span']
+
+Aqui vou pegar os nomes que ele está dando no title e colocar:
+
+Cupcake - "Bolo de copo"
+Donut - "Rosquinha"
+Eclair - "Bomba"
+Froyo - "Iogurte congelado"
+Gingerbread - "Biscoito de gengibre"
+Honeycomb - "Favo de mel"
+Ice Cream Sandwich - "Sanduíche de sorvete"
+Jelly Bean - "Jujuba"
+KitKat - "KitKat"
+Lolipop - "Pirulito"
+Marshmallow - "Marshmallow"
+Nougat - "Torrone"
+Oreo - "Oreo"
+Pie - "Torta"
+
+[Não vou colocar abbr, não é abreviação.]
+
+Ele disse que Inkscape é um editor de dessenho, igual o Ilustrator e não ao Photoshop.
+
+---
+Ele colocou uns strong a mais do que na foto original. No Android Q, por exemplo.
+
+--
+"Ninguém está livre de errar." (Guanabara)
