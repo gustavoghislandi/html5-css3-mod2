@@ -1,0 +1,55 @@
+Variáveis em CSS
+
+Toda linguagem de programação em variáveis, mas nem toda linguagem que tem variável é de programação.
+
+Variáveis são para facilitar a nossa vida, pois elas armanezam valores para serem usados mais à frente.
+
+:root -> é uma pseudo-classe que todo documento tem (segundo o Guanabara)
+
+Tudo que for definido dentro do seletor :root servirá para o documento inteiro.
+
+Ali dentro você declara o que seriam as variáveis globais.
+
+Todas as variáveis em CSS tem que começar com dois traços '--'.
+Então é --nomeVariavel
+
+Exemplo:
+
+:root {
+    --cor0: #000000
+    --cor1: #ffffff;
+    --cor2: #ff00ff;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+}
+
+Quando você usar 'Ctrl + espaço' ao colocar um valor dentro de uma declaração, irá aparecer a opção da variável lá no final das sugestões.
+
+Exemplo de uso:
+
+body {
+    background-color: var(--cor1);
+    color: var(--cor0);
+}
+
+Então o valor sempre será var(variável).
+
+Com isso, você só precisa mudar a cor em um único lugar. É MUITO BOM!
+
+./ -> pasta atual.
+../ -> pasta anterior ou "volte uma pasta e depois siga o resto do caminho."
+../../ -> "volte duas pastas e depois siga..."
+
+Por questão de organização, prefira colocar o CSS na mesma ordem de aparecimento do HTML. Se o nav está abaixo do header no HTML, coloque abaixo do header do CSS também.
+
+----
+O seletor asterisco * vale para todos os elementos, é uma configuração global.
+Exemplo:
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+Com isso, por padrão, todos os elementos não terão margin nem padding (terão valor 0, tecnicamente), só os que você colocar depois.
+

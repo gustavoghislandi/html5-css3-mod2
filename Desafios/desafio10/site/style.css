@@ -11,14 +11,22 @@
     src: url(../pacote-projeto-d010/fontes/idroid.otf);
 }
 
+:root {
+    --cor0: white;
+    --cor-titulos-principal: #295536;
+    --fonte-titulos-principal: "Idroid";
+    --cor1: #98d8b0;
+
+}
+
 body {
     margin: 0;
-    background-color: #98d8b0;
+    background-color: var(--cor1);
 }
 
 .main-header {
     background-image: linear-gradient(to top, #20412a, #6acc87);
-    color: white;
+    color: var(--cor0);
 
 }
 
@@ -48,21 +56,21 @@ body {
 
 .main-header>nav>a {
     text-decoration: none;
-    color: #98d8b0;
+    color: var(--cor1);
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     padding: 20px;
 }
 
 .main-header>nav>a:hover{
-    background-color: #519e68;
+    background-color: #73e09479;
     color: #1a5c38;
     border-radius: 12px;
     padding: 10px 20px;
 }
 
 main {
-    background-color: white;
+    background-color: var(--cor0);
     display: block;
     width: 45%;
     margin: 0px auto;
@@ -91,23 +99,19 @@ main p {
 
 .principal-article>h1,
 h2 {
-    font-family: "Idroid";
-    color: #295536;
-    font-family: "Idroid";
+    font-family: var(--fonte-titulos-principal);
+    color: var(--cor-titulos-principal);
     margin: 0px;
     padding: 1em;
 }
 
 .principal-article>h1 {
-    font-family: "Idroid";
-    color: #295536;
-    margin: 0px;
     padding: 0px;
     padding-top: 1em;
 }
 
 .principal-article>h2 {
-    background-image: linear-gradient(to right, #cce7d7, white);
+    background-image: linear-gradient(to right, #cce7d7, var(--cor0));
     padding: 0px 10px;
 }
 
@@ -165,7 +169,7 @@ iframe {
 
 .extra-header {
     background-color: #519e68;
-    color: white;
+    color: var(--cor0);
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 1em 1em 0px 0px;
 }
@@ -188,7 +192,7 @@ iframe {
 footer {
     background-color: #1a5c38;
     text-align: center;
-    color: white;
+    color: var(--cor0);
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
@@ -196,5 +200,5 @@ footer {
 
 footer a {
     text-decoration: none;
-    color: white;
+    color: var(--cor0);
 }
