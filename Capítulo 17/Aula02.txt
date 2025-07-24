@@ -6,7 +6,7 @@ Ele disse para não usar esse layout para todos os site. Disse para ser criativo
 
 Ele colocou uma pseudo-classe :hover nos links do Menu. Então eu vou fazer isso.
 
-Ele mudou a cor dos Links de branco para um verde claro. Não pretendo mudar isso.
+Ele mudou a cor dos Links de branco para um verde claro.
 
 Também colocou um background color verde nos links externos e mudou a cor da letra. Era branco na foto original.
 

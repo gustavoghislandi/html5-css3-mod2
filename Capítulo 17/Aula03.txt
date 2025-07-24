@@ -1,0 +1,31 @@
+Planejando a estrutura do seu site
+
+Ele disse que responsividade é uma coisa muito importante para os sites hoje em dia.
+
+Antes de mexer no código, tem que planejar. Planejamento é algo muito importante.
+
+----
+Ele irá planejar:
+
+- o layout;
+- as cores;
+- tipografia.
+
+----
+Ferramenta de planejamento de site:
+
+mockflow.com
+
+Não é 100% gratuita, mas diz ele que é boa já na gratuita.
+
+Ele tem Apps para smartphone também.
+
+Crie uma conta. Faça o login. 
+
+Ele vai criar "mocks", que são tipo um wireframe, diz o Guanabara.
+
+[Parece interessante. Não mexi, mas parece bem prático/rápido.]
+
+
+--
+[Ele está mostrando a fonte que ele usou (Bebas Neue). E eu tinha encontrado ela sem perceber que era exatamente a mesma. Eu tentei encontrar a mais próxima, mas estava realmente muito ruim a partir da foto, principalmente pelo fato de que esta fonte não tem tamanhos diferentes e na foto dele parecia com espessura diferente. Legal.]
