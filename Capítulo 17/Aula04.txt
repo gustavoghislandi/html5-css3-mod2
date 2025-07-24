@@ -1,0 +1,25 @@
+Transformando o layout em código
+
+Ao construir o layout (da maneira que ele está fazendo), será feito algo puramente semântico, praticamente sem estilização.
+
+Dica do mockflow: Ctrl + Shift + '+' para aproximar zoom e
+                  Ctrl + Shift + '-' para afastar zoom
+
+
+Tome cuidado ao fazer o HTML, porque, se você errar no HTML, não adianta querer mexer no estilo que (diz ele) não vai dar certo.
+
+----
+Eu vi que ele colocou o nav fora do header (e fora do main). Eu deixei e vou deixar dentro do header.
+
+No main ele colocou um artigo. Eu botei ele dentro de section. Aqui é mais pessoal.
+
+--
+Dica para programador. Arrume(organize) seu código, deixe ele indentado.
+Ele deu a dica do Shift e do Shift + Tab [hoje em dia eu já sei disso, mas é uma boa dica. Existe também o format, uso do lint também...]
+
+-----
+No conteúdo extra, ele colocou um 'aside' [ok], eu criei uma section e uma article novas. [Um aside fica interessante mesmo.]
+
+--
+Ele está dizendo que se não está funcionando é porque não está igual. [Em 99,995% dos casos é verdade.]
+Não se formam programadores da noite para o dia, apesar do que dizem cursos por aí. Isso envolve muita prática.
