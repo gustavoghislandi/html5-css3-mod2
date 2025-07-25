@@ -1,0 +1,76 @@
+Responsividade para sites
+
+Basicamente, responsividade é "adaptar o tamanho e o conteúdo do seu site a tamanhos de telas diferentes."(Guanabara)
+
+Isso inclui variações como a de um smartphone quando você "deita" ele.
+
+O seu site vai responder, se adaptando, ao tamanho da tela onde ele está sendo exibido.
+
+Um dos recursos mais simples é limitar o tamanho mínimo e o tamanho máximo de uma interface.
+
+--
+
+O site que o Guanabara fez até agora tem uma rolagem lateral quando a tela reduzida em largura. O meu já não faz isso desde que "concluí" o desafio.
+
+--
+Ele disse que o site não pode(não deve) ter rolagem horizontal. Já a vertical é "natural".
+
+Telas muito grandes também não deixam o site com um aspecto muito interessante. O parágrafo fica muito comprido em relação a altura, não fica muito bem.
+
+Então, o ideal é deixar a interface (de leitura) com algo entre 1000 a 1200 pixels de largura.
+
+Acima de 1200 pixels de largura, a ideia é criar um bloco de cada lado que vá se adaptando junto com o crescimento da tela. [Disse o Guanabara que esse bloco lateral deve se adaptar, mas não deve ser muito largo. Porém, isso não faz sentido porque se a tela crescer, inevitavelmente você preenche a tela ou com conteúdo ou com esses blocos. A menos que voce reconfigure novamente o site, porém isso exige uma reestruturação diferente.]
+
+------
+Agora, ele ensinará o recurso que delimita a largura máxima e a mínima.
+
+Alguns sites, mais antigamente, faziam um site para dispositivos móveis e outro para dispositivos de telas maiores. O Guanabara disse que isso não é bom, pois você acaba tendo que manter vários códigos.
+
+O ideal é ter um código único responsivo.
+
+--
+Iniciando o modelo para teste de responsividade ("responsivo.html")
+
+Se você ficar algo simples, como títulos e parágrafos, o site já será razoavelmente responsivo porque, por padrão, eles são modelos de bloco (display: block) e modelos de bloco usam, por padrão, 100% da largura da tela.
+
+Ao colocar uma img, você perceberá que, por padrão, ela não responde junto com o aumento ou redução da tela. E isso já causa aquele fenômeno do rolagem lateral.
+
+-
+Ele está sugerindo ir na Chrome Web Store e instalar o plugin "Window Resizer" (de coolx10.com). Tem que permitir algumas autorizações. Esse plugin mostra o tamanho da viewport no canto direito embaixo. [Isso pode ser consegi com Ctrl + Shif + m também...] Ele já tem umas resoluções prontas também, para simular alguns dispositivos.
+
+No teste, foi colocado um border-radius de 10px para caso ocorra a "quebra" da tela, ele não aparecerá. Que é o caso de colocar uma width fixa, como 800px e se reduz a tela para um tamanho menor que esse.
+
+Aí, ao colocar o margin: auto, isso vai colocar o 'main' no centro da tela e não vai "quebrar" o site (vai manter um bom tamanho de leitura e organização). Porém, se ficar menor que 800px, ainda "quebra". É onde entram as propriedades "max-width" e "min-width".
+
+Ele colocou um "max-width" de 800px.
+
+[Percebi que o meu site estava diferente porque largura do meu estava em percentual, o que fazia com que o 'main' crescesse indefinidamente com a tela, apesar das margin, ele só ficaria sempre na mesma proporção (45%). Ao o max-width em pixels ao invés de percentual, o problema foi resolvido.]
+
+[Notei também que, se a tela ficar muito pequena, o texto, por exemplo, do '.main-header > p' não ficava responsivo. E isso é porque ele estava com uma width fixa em 400px, para dar a quebra de linha que havia na foto original do desafio. Provalmente terei que adaptar com @media para configurações abaixo de 400px(mais padding)]
+
+Ele colocou o "min-width" em 320px, porque segundo ele é a largura máxima de smartphones mais antigos. 
+[Segundo o ChatGPT: 'A menor largura de tela de smartphone já registrada foi no Sony Ericsson T610, lançado em 2003. Esse modelo tinha uma tela de 1,8 polegadas com uma resolução de 128x160 pixels.'
+
+E isso também:
+
+    Para navegar na web, smartphones com resolução HD (720px de largura) ou mais são comuns.
+
+    Os smartphones de entrada podem ter telas a partir de 720px de largura.
+
+    A largura mínima recomendada de tela para um site ser navegável sem dificuldades hoje em dia seria de 320px.
+
+Portanto, a menor largura de tela moderna que você provavelmente encontrará para acessar sites com boa experiência seria algo em torno de 320px a 360px, mas a maioria dos smartphones modernos tem larguras de tela a partir de 720px para garantir uma navegação confortável.'
+
+Significando que a largura de tela mínima recomendada está na faixa dos 320px mesmo.]
+
+[Percebi que em 320px, além de ter que alterar aquele width fixo do p do header, posso adicionar um padding-bottom aos Links do nav, para afastá-los um pouco mais, apesar de que ainda estejam separados e acessíveis.]
+
+[Para esse site, talvez não seja necessário colocar um min-width em 320px. Vou verificar ainda. Verifiquei e parece que, ainda assim, ele fica mais legível mesmo sem o min-width de 320, é melhor deixar ele livre e fazer pequenas adaptações, se quiser ser mais preciosista. Se colocar o min-width em 320px, ele fica responsivo até aquele tamanho, depois "quebra".]
+
+Como a imagem está dentro do main, ele colocou a largura dela em 100%. Isso faz com que ela responda ao tamanho do main sempre. Ou seja, nesse caso, não ultrapassará 800px e reduzirá de acordo com o tamanho da tela.
+
+Agora, ele envolveu a img em uma tag picture e colocou a imagem menor para aparecer até 600px, por meio do atributo 'media' dentro da tag source, assim 'media="(max-width: 600px)"'.
+
+[off: Guanabara ensinou que naquela versão do Windows dele, você pode sacudir(arrastar maio que balançando ela, shaking) a tela, e aí fica somente aquele janela na tela, e se sacudir/balançar de novo, voltará para o último estado (ou seja, as outras janelas que estavam aberta no último estado voltam a aparecer na tela.)]
+
+Existem outras técnicas para organizar o conteúdo, como o flexbox. Mas nesse momento (de aprendizado é interessante aprender isso, que é a base).
