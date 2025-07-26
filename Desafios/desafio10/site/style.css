@@ -61,14 +61,18 @@ body {
     color: var(--cor1);
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    padding: 20px;
+    padding: 10px 20px;
+    transition-duration: 0.2s;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 12px;
 }
 
 .main-header>nav>a:hover{
     background-color: #73e09479;
-    color: #1a5c38;
+    color: #20412a;
     border-radius: 12px;
-    padding: 10px 20px;
+    padding: 10px 20px; 
 }
 
 main {
@@ -224,6 +228,7 @@ footer a {
 @media screen and (max-width: 510px) {
   /* Estilos para telas menores que 510px */
 
+/* Uso de flexbox abaixo */
 .main-header>nav {
     display: flex;
     flex-direction: column;
