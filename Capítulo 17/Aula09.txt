@@ -18,4 +18,4 @@ Ele colocou uma sombra abaixo do cabeçalho também.
 
 [Mexi nas sombras do main de maneira muito criativa para conseguir colocar sombra normal além de sombra inset. Criei uma div, que se a sombra não for desejada é só remover ela. Precisei até do z-index.]
 
-Ele ensinou sobre o transition-duration, para transicionar ao hover (neste caso).
+Ele ensinou sobre o transition-duration, para transicionar ao hover (neste caso). [Notei que se o transition está fora ou dentro do hover não parece fazer diferença, ele funciona.]
