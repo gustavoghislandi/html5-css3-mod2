@@ -1,0 +1,18 @@
+Responsividade na prática
+
+O Guanabara disse que até esta aula o site terá responsividade razoavelmente boa, com exceção de algumas telas muito pequenas. Mas isso poderá ser resolvido quando chegarmos ao assunto de 'media queries'.
+
+Ele está adaptando as coisas feitas na página 'responsivo.html' para a página principal.
+
+Uma das coisas que notei de diferente é que ele colocou a terceira img com tamanho em %, enquanto eu fixei em um tamanho limite máximo em px. Eu prefiro do meu modo para essa imagem e contexto em específico.
+
+No main, ele colocou uma sombra com 0px de deslocamento em ambas as direções, mas mais espalhamento. Interessante!
+
+Ao invés de usar o shorthand para fazer o border-radius, ele trabalhou mexendo em:
+    border-bottom-left-radius: ;
+    border-bottom-right-radius: ;
+
+Ele falou um 'ditado': "Trabalho dá trabalho", hahaha.
+
+----
+Ele disse que você tem que fazer esse desafio, mas que você também tem que se desafiar e tentar criar seu próprio desafio. [Nesse caso, eu teria que criar o site no figma ou algo assim, como fizemos na aula de Projetos de Extensão III da ESUCRI. Entretanto, lá já trabalhamos com React, NestJS, BD e admin. Eu ainda preciso dar continuidade naquele e depois criar um novo. Até para exercitar esses frameworks também. Porém, a base que estou pegando aqui é ótima!]
