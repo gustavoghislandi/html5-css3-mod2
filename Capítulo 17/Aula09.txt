@@ -1,0 +1,17 @@
+Configurando o header e o menu do site
+
+Aqui ele determinou uma altura mínima de 150px com:
+
+    min-height: 150px;
+
+[Eu não senti necessidade disso no meu código. Contudo eu acabei utilizando um flexbox no nav.]
+
+O font-size do p do header dele está em 1.2em, o meu ficou no padrão (1em). E o o max-width dele ficou em 600px, o meu ficou em 400px para ficar igual ao da foto [talvez porque o tamanho da fonte ficou diferente].
+
+Como ele fez o nav (menu) separado logo abaixo do header, ao colocar o linear-gradient terminando na mesma cor de fundo menu, isso fez uma integração entre o header e o menu nav. [Interessante! No meu caso, o nav está dentro do header e usou o mesmo fundo, mas uma maneira de tornar esse fundo do nav uniformente colorido sem parecer estar separado do header é fazendo esse tipo de intergração que ele fez. Claro, a outra maneira é modificar os percentuais do gradiente, como, por exemplo:     
+
+    background-image: linear-gradient(to top, #20412a 20%, #6acc87);
+    
+Contudo. Ainda não fica igual, principalmente se a tela for muito pequena e o flexbox 'dropar' para colunas. A abordagem que ele trouxe é interessante. Vai muito do gosto e do resultado final que se pretende. Entretanto, essa coloração fixa fica mais difícil de arrumar caso o menu mude para modo coluna em telas menores, provavelmente tendo que usar media queries.]
+
+Ele colocou uma sombra abaixo do cabeçalho também.
