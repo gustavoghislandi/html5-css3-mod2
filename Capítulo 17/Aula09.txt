@@ -15,3 +15,5 @@ Como ele fez o nav (menu) separado logo abaixo do header, ao colocar o linear-gr
 Contudo. Ainda não fica igual, principalmente se a tela for muito pequena e o flexbox 'dropar' para colunas. A abordagem que ele trouxe é interessante. Vai muito do gosto e do resultado final que se pretende. Entretanto, essa coloração fixa fica mais difícil de arrumar caso o menu mude para modo coluna em telas menores, provavelmente tendo que usar media queries.]
 
 Ele colocou uma sombra abaixo do cabeçalho também.
+
+[Mexi nas sombras do main de maneira muito criativa para conseguir colocar sombra normal além de sombra inset. Criei uma div, que se a sombra não for desejada é só remover ela. Precisei até do z-index.]

@@ -213,6 +213,7 @@ footer {
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
+    box-shadow: 0px -0.5px 0.5px rgba(0, 0, 0, 0.400);
 }
 
 footer a {
