@@ -1,0 +1,13 @@
+Tornando um vídeo responsivo
+
+Como diria um amigo do Guanabara: "A gente nunca termina um projeto, a gente desiste dele." Ou seja, nunca fica pronto 100%.
+
+Ele mexeu bastante para colocar o vídeo no lugar. E ficou procurando o lugar perfeito. Eu não fiz tanto esforço. Mas acabei tirando ele de dentro do article para isso. 
+
+Vou checar se é relativamente simples colocar dentro do article sem mexer muito nele.
+
+Sim, foi relativamente simples colocar dentro do article. Fiz basicamente um ajuste no margin lateral de -20px (que é o valor que havia em padding na hierarquia superior). Afinei um pouco o padding porque quando menor a largura de tela, nesse caso dentro do article, o vídeo ficava menor e o padding ainda meio grande. 
+
+Eu poderia ter mexido naquele padding geral e ter feito um a um e aí mexeria um pouco menos no vídeo, mas acho que daria mais trabalho do geral. E um bom programador não gosta de passar trabalho desnecessário kkkkk.
+
+--- Fim do Módulo 2.
