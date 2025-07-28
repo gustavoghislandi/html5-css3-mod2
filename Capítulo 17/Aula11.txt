@@ -1,0 +1,26 @@
+Rodapé, conteúdo periférico e links
+
+Aside é usado para conteúdo periférico. No meu caso, coloquei como uma section nova (e article novo).
+
+--
+Ele trabalhou com uma coisa que faz com que o style da lista ao invés de ficar do lado de fora (que é o padrão), vai para o lado de dentro. Assim:
+    ul {
+        list-style-position: inside;
+    }
+
+--
+E para dividir a lista em duas colunas [eu estava esperando por esse momento]:
+
+    ul {
+        columns: 2;
+    }
+
+[Super simples, mas bem relevante!]
+--
+
+Sobre o símbolo do 'check', ele usou list-style-type e no ul, enquanto eu usei list-style: '\2714'; no li. Funciona igual.
+
+Contudo, ele adicionou o \00AO duas vezes junto, o \00A0 é espaço em branco.
+
+--
+Ele criou uma classe externo para adicionar o símbolo de link nos links externos. Não fiz isso porque todos os links do .principal são externos. E não precisei verificar no footer, como ele fez.
