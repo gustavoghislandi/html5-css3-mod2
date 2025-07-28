@@ -1,0 +1,29 @@
+Melhorando o formato do conteúdo
+
+O Guanabara disse que fez uma besteira no tamanho da imagem do bugdroid ao usar percentual ao invés de pixels; e disse que se você ver isso, faça melhor que ele. Ou seja, é aprender a criar o site, e não fazer igual ao dele. [Eu ri, acabei já fazendo em pixels e não modificando mesmo.]
+
+Ele fez o lembrete de usar seletor assim:
+
+    main p {
+        declaração
+    }
+
+Ao invés de assim:
+
+    main > p {
+        declaração
+    }
+
+
+Porque o p pode estar dentro de um article, etc, e, ao não usar o '>', o CSS será válido para qualquer nível [quando funcionar, né...].
+
+Ele uso um line-height de 2em. 1em é o equivalente a não ter espaço entre as linhas. [O meu foi configurado diferente e vou manter o espaçamento atual que me parece ok.]
+
+Ele colocou um pequeno padding nos links do main, também colocou um hover.
+
+--
+Opa! No h2 dele, ele fez algo interessante! Provavelvelmente o efeito visual no contexto atual é o mesmo, mas o dele é mais interessante. Ele usou linear-gradient indo da cor até o transparente, ao invés de ir da cor até a cor de fundo. Assim:
+
+    background-image: linear-gradient(to right, #cce7d7, transparent);
+
+--

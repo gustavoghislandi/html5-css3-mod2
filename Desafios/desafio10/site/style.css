@@ -145,11 +145,21 @@ h2 {
 .principal a {
     color: #2c583a;
     text-decoration: none;
+
 }
 
 .principal a::after {
     content: ' \1F517';
     /*U+1F517*/
+
+    /* Colocado para o content não ficar sublinhado no hover */
+    display: inline-block;
+    margin-left: -1em;
+}
+
+/*Adicionado após ver o vídeo do Cap. 10*/
+.principal a:hover{
+    text-decoration: underline;
 }
 
 .principal strong {
