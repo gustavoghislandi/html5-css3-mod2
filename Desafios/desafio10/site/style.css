@@ -225,6 +225,10 @@ iframe {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.651);
 }
 
+#p-final {
+    padding: 0px 30px;
+}
+
 footer {
     background-color: #1a5c38;
     text-align: center;
