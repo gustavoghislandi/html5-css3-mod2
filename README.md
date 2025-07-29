@@ -5,6 +5,6 @@ Completei fazendo o Desafio 10 sozinho. Evidentemente ajustei depois algumas coi
 
 Acesse o Desafio 10 por este link: 
 
-      [Desafio 10](https://gustavoghislandi.github.io/html5-css3-mod2/index.html)
+[Desafio 10]([link](https://gustavoghislandi.github.io/html5-css3-mod2/index.html))
       
       https://gustavoghislandi.github.io/html5-css3-mod2/index.html
